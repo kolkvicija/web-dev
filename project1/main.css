@@ -1,12 +1,28 @@
 body {
     background-color: #facada;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
-    align-items: baseline;
+  align-items: center;
+  background-color: #facada;
+  height: 5%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 0; /* Adjust padding as needed */
+  z-index: 1000;
+}
+main{
+  margin-top: 3%;
 }
 
+header h1{
+  margin-top: 10px;
+  color : white;
+  size: 3em;
+
+}
 h1 {
     color:white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -17,12 +33,17 @@ p {
     width: 50%
 }
 
+q{
+  display: block;
+  text-align: center;
+}
+
 .nm{
     display: inline-block;
 }
 
 nav {
-    background-color: white;
+    
     padding: 10px 0;
     float: right;
   }
@@ -39,11 +60,60 @@ nav ul li {
 
 nav ul li a {
     display: inline-block;
-    color: #ffb6c1;
+    color: #271518;
     padding: 5px 20px;
     text-decoration: none;
   }
 
 nav ul li a:hover {
     background-color: #ff788c;
+  }
+
+  .container {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Adjust the height as needed */
+    background-image: url('https://cdn.pixabay.com/photo/2018/02/08/18/28/strawberry-pie-3140025_1280.jpg');
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity of the overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .overlay h1 {
+    color: white; /* Color of the text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Shadow effect for the text */
+    font-size: 6em;
+  }
+
+  hr {
+    border: none; /* Remove the default border */
+  height: 2px; /* Set the height of the line */
+  background-color: #000; /* Set the color of the line */
+  margin: 20px 0;
+  }
+
+  #aboutus {
+    display: flex;
+  }
+
+  #cake{
+    float: right;
+    flex-shrink: 0;
+  }
+
+  #divabout{
+    display: inline-block;
+    flex: 1;
   }
