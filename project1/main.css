@@ -1,11 +1,21 @@
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 body {
     background-color: #facada;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 header{
   align-items: center;
   background-color: #facada;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 5%;
   position: fixed;
   top: 0;
@@ -18,25 +28,24 @@ main{
 }
 
 header h1{
-  margin-top: 10px;
-  color : white;
-  size: 3em;
-
+  color: white;
+  font-size: 2em;
 }
+
 h1 {
     color:white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+q{
+  float: right;
+  font-family: 'Pacifico', cursive;
+}
 
 p {
-    width: 50%
+    width: 40%;
 }
 
-q{
-  display: block;
-  text-align: center;
-}
 
 .nm{
     display: inline-block;
@@ -63,57 +72,179 @@ nav ul li a {
     color: #271518;
     padding: 5px 20px;
     text-decoration: none;
+    font-family: 'Pacifico', cursive;
   }
 
 nav ul li a:hover {
     background-color: #ff788c;
+    color: white;
   }
 
-  .container {
-    position: relative;
-    width: 100%;
-    height: 300px; /* Adjust the height as needed */
-    background-image: url('https://cdn.pixabay.com/photo/2018/02/08/18/28/strawberry-pie-3140025_1280.jpg');
-    background-size: cover; /* Ensures the image covers the entire container */
-    background-position: center; /* Centers the image */
+  hr {
+    border: none;
+    border-color: white; 
+    height: 1em;
+    background-color: #ff788c; 
+    border-style: dotted;
+    margin: 20px 0;
+    border-radius: 1.5em;
+  }
+
+  #aboutus {
+    padding: 2%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color:#65222c;
+    font-style: oblique;
+  }
+
+
+  #cake{
+    float: right;
+    flex-shrink: 0;
+
+  }
+
+  .ovr h1{
+    display:inline-block;
+    text-align: right;
+    width:15%;
+    margin-left: 0%;
+    padding-right: 5%;
+    margin-top: 0;
+  }
+
+  .ovr{
+    display: flex;
+    justify-content: center;
+  }
+
+  .ovr p{
+    text-align: left;
+    margin-right: 10%;
+  }
+
+  #forms{
+    display: flex;
+    
+    font-size: 0.75em;
+  }
+
+  #contactus{
+    width: 50%;
+    padding: 5%;
+  }
+
+  #contactus h1{
+    margin-bottom: 2%;
   }
   
-  .overlay {
+  #newsletter{
+    background-color: #ff788c;
+    border: 2px solid #65222c;
+    padding: 0 5% 0 2%;
+    border-radius: 4%;
+    font-size: 1.2em;
+  }
+
+  #submit{
+    color:pink;
+    background-color: #65222c;
+    border-radius: 2%;
+    padding: 5px 10px; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Pacifico', crusive;
+    margin-bottom: 5%;
+  }
+
+  #lname, #fname {
+    width: 300px;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px;
+    color: #333; 
+    box-sizing: border-box; 
+  }
+
+  footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1% 1% 1%;
+  }
+
+  .image-container {
+    position: relative;
+    display: inline-block; 
+  }
+
+#cake {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity of the overlay */
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #facada 70%);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-  }
-  
-  .overlay h1 {
-    color: white; /* Color of the text */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Shadow effect for the text */
-    font-size: 6em;
-  }
+}
 
-  hr {
-    border: none; /* Remove the default border */
-  height: 2px; /* Set the height of the line */
-  background-color: #000; /* Set the color of the line */
-  margin: 20px 0;
-  }
+.overlay h1 {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  font-size: 6em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; 
+  z-index: 1; 
+}
 
-  #aboutus {
-    display: flex;
-  }
+#prodopt{
+  display: flex;
+  justify-content: space-between;
+}
 
-  #cake{
-    float: right;
-    flex-shrink: 0;
-  }
+.container {
+  position: relative;
+  width: 100%;
+  height: 400px; 
+  background-image: url('https://cdn.pixabay.com/photo/2018/02/08/18/28/strawberry-pie-3140025_1280.jpg');
+  background-size: cover; 
+  background-position: center; 
+}
 
-  #divabout{
-    display: inline-block;
-    flex: 1;
-  }
+.secname{
+  font-size: 2.5em;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 2px 2px 4px #ff788c;
+}
+
+.optone{
+  border: 2px solid #ff788c;
+  padding: 2%;
+  border-radius: 2%;
+}
+
+.optone:hover {
+  background-color: #ff788c;
+  font-size: 2em;
+    font-family: 'Pacifico', cursive;
+  color: white;
+}
+
+.optimg{
+  width: 300px;
+}
