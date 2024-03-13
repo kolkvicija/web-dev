@@ -1,3 +1,6 @@
+*::selection{
+  background-color: #ffacc8;
+}
 .pacifico-regular {
   font-family: "Pacifico", cursive;
   font-weight: 400;
@@ -10,27 +13,7 @@ body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
-header{
-  align-items: center;
-  background-color: #facada;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 5%;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  padding: 10px 0; /* Adjust padding as needed */
-  z-index: 1000;
-}
-main{
-  margin-top: 3%;
-}
 
-header h1{
-  color: white;
-  font-size: 2em;
-}
 
 h1 {
     color:white;
@@ -54,6 +37,8 @@ p {
 nav {
     
     padding: 10px 0;
+    padding-top: 1%;
+    padding-right: 1%;
     float: right;
   }
 
@@ -69,7 +54,7 @@ nav ul li {
 
 nav ul li a {
     display: inline-block;
-    color: #271518;
+    color: white;
     padding: 5px 20px;
     text-decoration: none;
     font-family: 'Pacifico', cursive;
@@ -84,12 +69,15 @@ nav ul li a:hover {
     border: none;
     border-color: white; 
     height: 1em;
-    background-color: #ff788c; 
-    border-style: dotted;
+    background-image: linear-gradient(rgba(255, 120, 140, 0), rgba(255, 120, 140, 0.2), rgba(255, 120, 140, 0)); 
+
     margin: 20px 0;
     border-radius: 1.5em;
   }
 
+  #products{
+    padding-bottom: 3%;
+  }
   #aboutus {
     padding: 2%;
     text-align: center;
@@ -176,10 +164,6 @@ nav ul li a:hover {
     padding: 0 1% 1% 1%;
   }
 
-  .image-container {
-    position: relative;
-    display: inline-block; 
-  }
 
 #cake {
     display: block;
@@ -187,44 +171,98 @@ nav ul li a:hover {
     height: auto;
 }
 
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #facada 70%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
 
-.overlay h1 {
-  color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-  font-size: 6em;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white; 
-  z-index: 1; 
-}
 
 #prodopt{
   display: flex;
   justify-content: space-between;
 }
 
-.container {
-  position: relative;
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 400px; 
-  background-image: url('https://cdn.pixabay.com/photo/2018/02/08/18/28/strawberry-pie-3140025_1280.jpg');
-  background-size: cover; 
-  background-position: center; 
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #facada 65%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
+
+.overlay h1 {
+color: white;
+text-shadow: 2px 2px 4px #ff788c;
+font-size: 6em;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white; 
+z-index: 1; 
+}
+
+#navbar{
+z-index: 2;
+}
+
+.container {
+position: relative;
+width: 100%;
+height: 30em;
+background-image: url('https://cdn.pixabay.com/photo/2020/02/15/17/36/macaroons-4851545_1280.jpg');
+background-size: cover; 
+background-position: center; 
+z-index: -1;
+}
+
+
+#nbar{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 0; 
+  z-index: 1000;
+}
+main{
+  margin-top: 3%;
+}
+
+header h1{
+  color: white;
+  font-size: 2em;
+}
+
+#navbar{
+  padding-left: 1%;
+  padding-top: 1%;
+}
+#navbar h1{
+  font-size: 2.5em;
+}
+
+#nbar {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+
+#nbar:hover {
+  background-color: #facada;
+}
+
+
+body.scrolled #nbar {
+  background-color: #facada; 
+  box-shadow: 0 4px 6px rgba(255, 120, 140, 0.1);
+}
+
 
 .secname{
   font-size: 2.5em;
@@ -233,18 +271,22 @@ nav ul li a:hover {
 }
 
 .optone{
-  border: 2px solid #ff788c;
+  
   padding: 2%;
   border-radius: 2%;
+  transition: background-color 0.3s ease;
+  height: 20em;
 }
 
 .optone:hover {
   background-color: #ff788c;
-  font-size: 2em;
-    font-family: 'Pacifico', cursive;
+  font-family: 'Pacifico', cursive;
   color: white;
+  box-shadow: 0 4px 6px rgba(128, 63, 73, 0.5);
 }
 
 .optimg{
   width: 300px;
 }
+
+

@@ -8,32 +8,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="scrolled">
     <header id="home">
-        <div id="navbar" class="nm">
-            <h1 class="nm pacifico-regular">Kate's bakery</h1>
-        </div>
-        
-        <nav class="nm">
+        <div id="nbar">
+            <div id="navbar" class="nm">
+                <h1 class="nm pacifico-regular">Kate's bakery</h1>
+            </div>
             
-                <ul>
-                  <li><a href="#home">Home</a></li>
-                  <li><a href="#aboutus">About</a></li>
-                  <li><a href="#sub.html">Recipe book</a></li>
-                  <li><a href="#products">Products</a></li>
-                  <li><a href="#newsletter">Newsletter</a></li>
-                </ul>
-        </nav>
-        
+            <nav class="nm">
+                
+                    <ul>
+                      <li><a href="#home">Home</a></li>
+                      <li><a href="#aboutus">About</a></li>
+                      <li><a href="#sub.html">Recipe book</a></li>
+                      <li><a href="#products">Products</a></li>
+                      <li><a href="#newsletter">Newsletter</a></li>
+                    </ul>
+            </nav>
+        </div>
+        <section class="container">
+            <div class="overlay">
+              <h1 class="pacifico-regular">Welcome!</h1>
+            </div>
+        </section>    
+       
     </header>
     <main>
         <br>
     
-    <section class="container">
-        <div class="overlay">
-          <h1 class="pacifico-regular">Welcome!</h1>
-        </div>
-    </section>
+        
     <section id="aboutus">
         <div class="ovr">
             <h1 class="secname">About us</h1>
@@ -51,21 +54,32 @@
     <section align="center" id="products">
     <h1 class="secname">Products</h1>
         <div id="prodopt">
-            <div class="optone">
-                <h2 class="pacifico-regular">Strawberry pie</h2>
-                <img class="optimg" src="https://cdn.pixabay.com/photo/2018/02/08/18/28/strawberry-pie-3140025_1280.jpg" width="300px">
+            <div class="optone" id="">
+                <div class="">
+                    <h2 class="pacifico-regular">Macarons</h2>
+                    <img class="optimg" src="https://static.vecteezy.com/system/resources/previews/026/757/722/original/macaron-with-ai-generated-free-png.png">
+                </div>
+                
             </div>
             <div class="optone">
-                <h2 class="pacifico-regular">Macarons</h2>
-                <img class="optimg" src="https://cdn.pixabay.com/photo/2017/07/28/14/28/macarons-2548818_1280.jpg" width="300px">
-            </div>
+                <div class="ovl">
+                    <h2 class="pacifico-regular">Cakes</h2>
+                    <img class="optimg" src="https://static.vecteezy.com/system/resources/previews/027/522/308/original/chocolate-cake-happy-birthday-chocolate-cake-ai-generative-free-png.png">
+                </div>
+            </div>    
             <div class="optone">
-                <h2 class="pacifico-regular">Cupcakes</h2>
-                <img class="optimg" src="https://cdn.pixabay.com/photo/2017/05/04/21/23/cupcakes-2285209_1280.jpg" width="300px">
+                <div class="ovl">
+                    <h2 class="pacifico-regular">Cupcakes</h2>
+                    <img class="optimg" src="https://static.vecteezy.com/system/resources/previews/022/228/586/original/set-of-birthday-colorful-cupcake-free-png.png">
+                </div>
+                
             </div>  
             <div class="optone">
-                <h2 class="pacifico-regular">Apple Pie</h2>
-                <img class="optimg" src="https://cdn.pixabay.com/photo/2020/08/11/13/58/apple-pie-5479993_960_720.jpg" width="300px">
+                <div class="ovl">
+                    <h2 class="pacifico-regular">Strawberry pie</h2>
+                    <img class="optimg" src="https://static.vecteezy.com/system/resources/previews/021/027/415/original/apple-pie-transparent-png.png">
+                </div>
+                
             </div> 
             
         </div>
@@ -99,5 +113,11 @@
         &#169; 2024, Kolkvicija
         <q><i>Baking is love made visible.</i></q>
     </footer>
+    <script>
+        window.addEventListener('scroll', function() {
+          const scrolled = window.scrollY > 0;
+          document.body.classList.toggle('scrolled', scrolled);
+        });
+      </script>
 </body>
 </html>
