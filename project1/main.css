@@ -11,6 +11,7 @@
 body {
     background-color: #facada;
     font-family: Verdana, Arial, Helvetica, sans-serif;
+    cursor: url("icons8-heart-30.png"), auto;
 }
 
 
@@ -26,7 +27,7 @@ q{
 }
 
 p {
-    width: 40%;
+    width: 60%;
 }
 
 
@@ -36,7 +37,7 @@ p {
 
 nav {
     
-    padding: 10px 0;
+    padding: 1em 0;
     padding-top: 1%;
     padding-right: 1%;
     float: right;
@@ -55,7 +56,7 @@ nav ul li {
 nav ul li a {
     display: inline-block;
     color: white;
-    padding: 5px 20px;
+    padding: 0.5em 1.5em;
     text-decoration: none;
     font-family: 'Pacifico', cursive;
   }
@@ -70,8 +71,6 @@ nav ul li a:hover {
     border-color: white; 
     height: 1em;
     background-image: linear-gradient(rgba(255, 120, 140, 0), rgba(255, 120, 140, 0.2), rgba(255, 120, 140, 0)); 
-
-    margin: 20px 0;
     border-radius: 1.5em;
   }
 
@@ -84,6 +83,7 @@ nav ul li a:hover {
     font-family: 'Courier New', Courier, monospace;
     color:#65222c;
     font-style: oblique;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255, 120, 140, 0.5) 80%);
   }
 
 
@@ -93,24 +93,7 @@ nav ul li a:hover {
 
   }
 
-  .ovr h1{
-    display:inline-block;
-    text-align: right;
-    width:15%;
-    margin-left: 0%;
-    padding-right: 5%;
-    margin-top: 0;
-  }
-
-  .ovr{
-    display: flex;
-    justify-content: center;
-  }
-
-  .ovr p{
-    text-align: left;
-    margin-right: 10%;
-  }
+ 
 
   #forms{
     display: flex;
@@ -128,8 +111,8 @@ nav ul li a:hover {
   }
   
   #newsletter{
-    background-color: #ff788c;
-    border: 2px solid #65222c;
+    
+    
     padding: 0 5% 0 2%;
     border-radius: 4%;
     font-size: 1.2em;
@@ -138,21 +121,20 @@ nav ul li a:hover {
   #submit{
     color:pink;
     background-color: #65222c;
-    border-radius: 2%;
-    padding: 5px 10px; 
+    border-radius: 1em;
+    padding: 1% 5%; 
     border: none; 
-    border-radius: 5px;
     cursor: pointer;
     font-family: 'Pacifico', crusive;
     margin-bottom: 5%;
   }
 
   #lname, #fname {
-    width: 300px;
-    padding: 10px; 
-    border: 1px solid #ccc; 
-    border-radius: 5px; 
-    font-size: 16px;
+    width: 15em;
+    padding: 2%; 
+    border: 0.1em solid #facada; 
+    border-radius: 0.5em; 
+    font-size: 1em;
     color: #333; 
     box-sizing: border-box; 
   }
@@ -193,7 +175,7 @@ nav ul li a:hover {
 
 .overlay h1 {
 color: white;
-text-shadow: 2px 2px 4px #ff788c;
+text-shadow: 0.03em 0.03em 0.05em #ff788c;
 font-size: 6em;
 position: absolute;
 top: 50%;
@@ -227,12 +209,10 @@ z-index: -1;
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 10px 0; 
+  padding: 0.7% 0; 
   z-index: 1000;
 }
-main{
-  margin-top: 3%;
-}
+
 
 header h1{
   color: white;
@@ -260,14 +240,14 @@ header h1{
 
 body.scrolled #nbar {
   background-color: #facada; 
-  box-shadow: 0 4px 6px rgba(255, 120, 140, 0.1);
+  box-shadow: 0 0.3em 0.8em rgba(255, 120, 140, 0.1);
 }
 
 
 .secname{
   font-size: 2.5em;
     font-family: 'Pacifico', cursive;
-    text-shadow: 2px 2px 4px #ff788c;
+    text-shadow: 0.03em 0.03em 0.05em rgba(255, 120, 140, 1);
 }
 
 .optone{
@@ -282,11 +262,14 @@ body.scrolled #nbar {
   background-color: #ff788c;
   font-family: 'Pacifico', cursive;
   color: white;
-  box-shadow: 0 4px 6px rgba(128, 63, 73, 0.5);
+  box-shadow: 0 1em 1.5em rgba(128, 63, 73, 0.5);
 }
 
 .optimg{
-  width: 300px;
+  width: 18em;
 }
 
+#forms{
+  background-image: linear-gradient(to left,rgba(255, 120, 140, 0.5),rgba(128, 63, 73, 0));
+}
 
