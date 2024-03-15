@@ -2,7 +2,7 @@
   background-color: #ffacc8;
 }
 .pacifico-regular {
-  font-family: "Pacifico", cursive;
+  font-family: "Pacifico", 'Verdana', cursive;
   font-weight: 400;
   font-style: normal;
 }
@@ -21,9 +21,12 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+
+
 q{
   float: right;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Pacifico','Verdana', cursive;
+  color: #ff788c;
 }
 
 p {
@@ -58,7 +61,7 @@ nav ul li a {
     color: white;
     padding: 0.5em 1.5em;
     text-decoration: none;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Pacifico','Verdana', cursive;
   }
 
 nav ul li a:hover {
@@ -125,7 +128,7 @@ nav ul li a:hover {
     padding: 1% 5%; 
     border: none; 
     cursor: pointer;
-    font-family: 'Pacifico', crusive;
+    font-family: 'Pacifico','Verdana', crusive;
     margin-bottom: 5%;
   }
 
@@ -246,7 +249,7 @@ body.scrolled #nbar {
 
 .secname{
   font-size: 2.5em;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Pacifico','Verdana', cursive;
     text-shadow: 0.03em 0.03em 0.05em rgba(255, 120, 140, 1);
 }
 
@@ -260,7 +263,7 @@ body.scrolled #nbar {
 
 .optone:hover {
   background-color: #ff788c;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Pacifico','Verdana' cursive;
   color: white;
   box-shadow: 0 1em 1.5em rgba(128, 63, 73, 0.5);
 }
@@ -273,3 +276,7 @@ body.scrolled #nbar {
   background-image: linear-gradient(to left,rgba(255, 120, 140, 0.5),rgba(128, 63, 73, 0));
 }
 
+label{
+  color: #ff788c;
+  font-style: oblique;
+  }
