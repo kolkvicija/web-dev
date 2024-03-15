@@ -1,6 +1,8 @@
 *::selection{
   background-color: #ffacc8;
 }
+
+
 .pacifico-regular {
   font-family: "Pacifico", 'Verdana', cursive;
   font-weight: 400;
@@ -12,7 +14,9 @@ body {
     background-color: #facada;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     cursor: url("icons8-heart-30.png"), auto;
+    margin: 0;
 }
+
 
 
 
@@ -31,6 +35,10 @@ q{
 
 p {
     width: 60%;
+    font-family: 'Roboto', cursive;
+    line-height: 1.5em;
+    color:#fafafa;
+    text-shadow: 0.03em 0.03em 0.05em #ff788c;
 }
 
 
@@ -70,12 +78,20 @@ nav ul li a:hover {
     color: white;
   }
 
-  hr {
+  .t1 {
     border: none;
     border-color: white; 
     height: 1em;
-    background-image: linear-gradient(rgba(255, 120, 140, 0), rgba(255, 120, 140, 0.2), rgba(255, 120, 140, 0)); 
-    border-radius: 1.5em;
+    background-image: linear-gradient(to top, rgba(255, 120, 140, 0.5), rgba(255, 172, 200, 0)); 
+    margin-bottom: 0;
+  }
+
+  .t2{
+    border: none;
+    border-color: white; 
+    height: 1em;
+    background-image: linear-gradient(to bottom, rgba(255, 120, 140, 0.5), rgba(255, 172, 200, 0)); 
+    margin-top: 0;
   }
 
   #products{
@@ -160,7 +176,8 @@ nav ul li a:hover {
 
 #prodopt{
   display: flex;
-  justify-content: space-between;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
 }
 
 .overlay {
@@ -254,7 +271,7 @@ body.scrolled #nbar {
 }
 
 .optone{
-  
+  display: inline-block;
   padding: 2%;
   border-radius: 2%;
   transition: background-color 0.5s ease;
@@ -274,22 +291,28 @@ body.scrolled #nbar {
 }
 
 #forms{
-  background-image: linear-gradient(to left,rgba(255, 120, 140, 0.5),rgba(128, 63, 73, 0));
+  background-image: linear-gradient(to bottom,rgba(255, 120, 140, 0.5),rgba(128, 63, 73, 0));
 }
 
 label{
-  color: #ff788c;
+  color: #fafafa;
   font-style: oblique;
+  font-family: 'Roboto';
   }
 
   .auone{
     display: flex;
+    flex-direction: row;
     margin: 4% 0;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s, transform 0.5s;
   }
 
   .auimg{
-    witdh: 30em;
-    height:30em;
+    width: 60%;
+    float: right;
+    border-radius: 2%;
   }
 
   .rdesc{
@@ -297,5 +320,37 @@ label{
   }
 
   .rdesc, .ldesc{
+    
     margin: 0 3%;
+    width: 50%;
+    float: left;
+    padding: 20px;
+    float: none;
+  }
+
+  .auone.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @media screen and (max-width: 768px) {
+    .auone {   
+      align-items: center;    
+      flex-direction: column;
+        
+    }
+    .auimg {
+      width: 60%; 
+  }
+
+  .rdesc, .ldesc {
+      width: 80%;
+      font-size: 0.5em; 
+      text-align: center;
+  }
+  }
+  
+  footer{
+    color:#65222c;
+    font-family: 'Roboto';
   }

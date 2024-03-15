@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Pastry</title>
    <link rel="stylesheet" href="main.css"> 
    <link rel="stylesheet" href="index.css"> 
@@ -9,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="https://img.icons8.com/?size=50&id=10149&format=png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body class="scrolled">
     <header id="home">
@@ -80,11 +84,11 @@
         </div>
 
     </section>
-    <hr id="two">
+    <hr id="two" class="t2">
     <section align="center" id="products">
     <h1 class="secname" >Products</h1>
         <div id="prodopt">
-            <div class="optone" id="">
+            <div class="optone">
                 <div class="">
                     <h2 class="pacifico-regular">Macarons</h2>
                     <img class="optimg" src="https://static.vecteezy.com/system/resources/previews/026/757/722/original/macaron-with-ai-generated-free-png.png">
@@ -114,7 +118,7 @@
             
         </div>
     </section>
-    <hr>
+    <hr class="t1">
     <section id="forms">
         <section id="contactus">
            <h1 class="secname">Contact us!</h1>
@@ -138,16 +142,10 @@
         </section>
     </section>
     </main>
-    <hr>
     <footer>
         &#169; 2024, Kolkvicija
         <q>Baking is love made visible.</q>
     </footer>
-    <script>
-        window.addEventListener('scroll', function() {
-          const scrolled = window.scrollY > 0;
-          document.body.classList.toggle('scrolled', scrolled);
-        });
-      </script>
+    <script src="script.js"></script>
 </body>
 </html>
