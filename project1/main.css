@@ -1,189 +1,117 @@
-*::selection{
-  background-color: #ffacc8;
-}
-
-
 .pacifico-regular {
   font-family: "Pacifico", 'Verdana', cursive;
   font-weight: 400;
   font-style: normal;
 }
 
-
 body {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
     cursor: url("icons8-heart-30.png"), auto;
     margin: 0;
 }
 
-
-main{
-  background-color: #facada;
-}
-
-h1 {
-    color:white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-
-
-q{
+q {
   float: right;
-  font-family: 'Pacifico','Verdana', cursive;
-  color: white;
 }
 
 p {
-    width: 70%;
-    font-family: 'Roboto', cursive;
-    line-height: 1.5em;
-    color:#401f24;
-    font-style: oblique;
+  width: 70%;
+  line-height: 1.5em;
+  font-style: oblique;
 }
-
 
 .nm{
-    display: inline-block;
+  display: inline-block;
 }
-
 
 nav {
     
-    padding: 1em 0;
-    padding-top: 1%;
-    padding-right: 1%;
-    float: right;
-  }
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-nav ul li {
-    display: inline;
-  }
-
-nav ul li a {
-    display: inline-block;
-    color: white !important;
-    padding: 0.5em 1.5em;
-    text-decoration: none;
-    font-family: 'Pacifico','Verdana', cursive;
-    transition: background-color 0.5s ease;
-  }
-
-nav ul li a:hover {
-    background-color: #ff788c;
-    color: white;
-  }
-
-  /*.t1 {
-    border: none;
-    border-color: white; 
-    height: 1em;
-    background-image: linear-gradient(to top, rgba(255, 120, 140, 0.5), rgba(255, 172, 200, 0)); 
-    margin-bottom: 0;
-  }
-
-  .t2{
-    border: none;
-    border-color: white; 
-    height: 1em;
-    background-image: linear-gradient(to bottom, rgba(255, 120, 140, 0.5), rgba(255, 172, 200, 0)); 
-    margin-top: 0;
-  }*/
-
-  hr{
-    border: none !important;
-    background-color: none !important;
-    margin: 3% 0 !important; 
-  }
-
-  #products{
-    padding: 5% 0;
-    background-color: #fda1b3;
-  }
-  #aboutus {
-    padding: 2%;
-    font-family: 'Courier New', Courier, monospace;
-    color:#65222c;
-    font-style: oblique;
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255, 120, 140, 0.5) 80%);
-    justify-content: center;
-  }
-
-
-  #cake{
-    float: right;
-    flex-shrink: 0;
-
-  }
-
-  #forms{
-    display: flex;
-    padding-top: 2%;
-    font-size: 0.75em;
-    background-color: #fda1b3 !important;
-  }
-
-  #contactus{
-    width: 50%;
-    padding: 5%;
-  }
-
-  #contactus h1{
-    margin-bottom: 2%;
-  }
-  
-  #newsletter{
-    float: right !important;
-    margin-left: 2%;
-    padding: 0 2% 0 5%;
-    border-radius: 4%;
-    font-size: 1.2em;
-    flex-grow: 1;
-  }
-
-  #submit{
-    color:pink;
-    background-color: #65222c;
-    border-radius: 1em;
-    padding: 1% 5%; 
-    border: none; 
-    cursor: pointer;
-    font-family: 'Pacifico','Verdana', crusive;
-    margin-bottom: 5%;
-  }
-
-  #lname, #fname {
-    width: 15em;
-    padding: 2%; 
-    border: 0.1em solid #facada; 
-    border-radius: 0.5em; 
-    font-size: 1em;
-    color: #333; 
-    box-sizing: border-box; 
-  }
-
-  footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1% 1% 1%;
-    background-color: #fda1b3;
-  }
-
-
-#cake {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  padding: 1em 0;
+  padding-top: 1%;
+  padding-right: 1%;
+  float: right;
 }
 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
 
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  transition: background-color 0.5s ease;
+}
+
+hr{
+  border: none !important;
+  background-color: none !important;
+  margin: 3% 0 !important; 
+}
+
+#products{
+  padding: 5% 0;
+}
+  
+#aboutus {
+  padding: 2%;
+  font-style: oblique;
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255, 120, 140, 0.5) 80%);
+  justify-content: center;
+}
+
+#forms{
+  display: flex;
+  padding-top: 2%;
+  font-size: 0.75em;
+}
+
+#contactus{
+  width: 50%;
+  padding: 5%;
+}
+
+#contactus h1{
+  margin-bottom: 2%;
+}
+  
+#newsletter{
+  float: right !important;
+  margin-left: 2%;
+  padding: 0 2% 0 5%;
+  border-radius: 4%;
+  font-size: 1.2em;
+  flex-grow: 1;
+}
+
+#submit{
+  border-radius: 1em;
+  padding: 1% 5%; 
+  border: none; 
+  cursor: pointer;
+  margin-bottom: 5%;
+}
+
+#lname, #fname {
+  width: 15em;
+  padding: 2%; 
+  border-radius: 0.5em; 
+  font-size: 1em;
+  box-sizing: border-box; 
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1% 1% 1%;
+}
 
 #prodopt{
   display: flex;
@@ -205,40 +133,29 @@ nav ul li a:hover {
 }
 
 .overlay h1 {
-color: white;
-text-shadow: 0.03em 0.03em 0.05em #ff788c;
-font-size: 6em;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-color: white; 
-z-index: 1; 
+  font-size: 6em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  z-index: 1; 
 }
 
 #nb{
-z-index: 2;
+  z-index: 2;
 }
 
 .con {
-position: relative;
-width: 100%;
-height: 30em;
-background-image: url('https://cdn.pixabay.com/photo/2020/02/15/17/36/macaroons-4851545_1280.jpg');
-background-size: cover; 
-background-position: center; 
-z-index: -1;
+  position: relative;
+  width: 100%;
+  height: 30em;
+  background-image: url('https://cdn.pixabay.com/photo/2020/02/15/17/36/macaroons-4851545_1280.jpg');
+  background-size: cover; 
+  background-position: center; 
+  z-index: -1;
 }
 
-
 #nbar{
-  /*align-items: center;
-  
-  justify-content: space-between;
-  align-items: center;
-  
-  position: fixed;
-  top: 0;*/
   display: flex;
   height: 2%;
   width: 100%;
@@ -246,9 +163,7 @@ z-index: -1;
   z-index: 1000;
 }
 
-
 header h1{
-  color: white;
   font-size: 2em;
 }
 
@@ -257,26 +172,25 @@ header h1{
   padding-top: 1%;
 
 }
+
 #nb h1{
   font-size: 2.5em;
 }
+/*Do ovdje si došla sa sređivanjem*/
 
 #nbar {
   background-color: transparent;
   transition: background-color 0.3s ease;
 }
 
-
 #nbar:hover {
   background-color: #facada;
 }
-
 
 body.scrolled #nbar {
   background-color: #facada; 
   box-shadow: 0 0.3em 0.8em rgba(255, 120, 140, 0.1);
 }
-
 
 .secname{
   font-size: 2.5em;
@@ -291,16 +205,23 @@ body.scrolled #nbar {
   border-radius: 2%;
   transition: background-color 0.5s ease;
   height: 25em;
-  color: #401f24!important;
-  text-shadow: 0.03em 0.03em 0.05em  #ff788c  !important;
+  
+  
 }
-
 
 .optone:hover {
   background-color: #ff788c;
   font-family: 'Pacifico','Verdana' cursive;
-  color: white;
   box-shadow: 0 0.5em 1.2em rgba(128, 63, 73, 0.2);
+}
+
+.optone a {
+  color: #401f24!important;
+  text-decoration: none !important;
+  text-shadow: 0.03em 0.03em 0.05em  #ff788c  !important;
+}
+
+.optone a:hover{
   color: white !important;
   text-shadow: 0.03em 0.03em 0.05em #facada !important;
 }
@@ -310,82 +231,78 @@ body.scrolled #nbar {
   height: auto;
 }
 
-
-
 label{
   color: #401f24;
   font-style: oblique;
   font-family: 'Roboto';
   }
 
-  .auone{
-    display: flex;
-    flex-direction: row;
-    margin: 4% 0;
-    padding: 0 2%;
-    opacity: 0;
-    transform: translateY(50px);
-    transition: opacity 0.5s, transform 0.5s;
-    align-items: center;
+.auone{
+  display: flex;
+  flex-direction: row;
+  margin: 4% 0;
+  padding: 0 2%;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s, transform 0.5s;
+  align-items: center;
+}
+
+.auone p  {
+  color: #401f24;
+}
+
+.auimg{
+  height: 60%;
+  border-radius: 2%;
+  flex-shrink: 0;
+}
+
+.rdesc{
+  text-align: right;
+  flex-grow: 1;
+  
+}
+
+.rdesc, .ldesc{
+  
+  margin: 0 3%;
+  width: 50%;
+  float: left;
+  float: none;
+}
+
+.auone.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media screen and (max-width: 768px) {
+  .auone {   
+    align-items: center;    
+    flex-direction: column;
+      
   }
-
-  .auone p  {
-    color: #401f24;
-  }
-
-
-
-  .auimg{
-    height: 60%;
-    border-radius: 2%;
-    flex-shrink: 0;
-  }
-
-  .rdesc{
-    text-align: right;
-    flex-grow: 1;
-    
-  }
-
-  .rdesc, .ldesc{
-    
-    margin: 0 3%;
-    width: 50%;
-    float: left;
-    float: none;
-  }
-
-  .auone.show {
-    opacity: 1;
-    transform: translateY(0);
-  }
-
-  @media screen and (max-width: 768px) {
-    .auone {   
-      align-items: center;    
-      flex-direction: column;
-        
-    }
-    .auimg {
-      width: 60%; 
+  .auimg {
+    width: 60%; 
   }
 
   .rdesc, .ldesc {
-      width: 80%;
-      font-size: 0.8em; 
-      text-align: center;
+    width: 80%;
+    font-size: 0.8em; 
+    text-align: center;
   }
-  }
-  
-  footer{
-    color:#65222c;
-    font-family: 'Roboto';
-  }
+}
 
-  .ovr{
-    justify-content: center;
-  }
+footer{
+  color:#65222c;
+  font-family: 'Roboto';
+}
 
-  .options .navbar-nav.ml-auto {
-    margin-left: auto !important; 
-  }
+.ovr{
+  justify-content: center;
+}
+
+.options .navbar-nav.ml-auto {
+  margin-left: auto !important; 
+}

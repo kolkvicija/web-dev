@@ -1,4 +1,74 @@
-/*$red-bg : red;
-p{
-    background-color: $red-bg;
-}*/
+$white: white;
+$another: #facada;
+$pink-one:#ffacc8;
+$pink-two: #fda1b3;
+$pink-three: #ff788c;
+$dark: #65222c;
+$dark-two: #401f24;
+
+$my-fonts: 'Pacifico','Verdana', cursive;
+$para: 'Roboto', cursive;
+
+*::selection {
+    background-color: $pink-one;
+  }  
+
+  main {
+    background-color: $another;
+  }
+
+  header h1{
+    color: $white;
+  }
+
+  nav ul li a {
+    color: $white !important;
+    font-family: $my-fonts;
+  }
+
+  nav ul li a:hover {
+    background-color: $pink-three;
+    color: $white;
+  }
+
+  p {
+    font-family: $para;
+    color: $dark-two;
+  }
+
+  .overlay h1 {
+    color: $white;
+    text-shadow: 0.03em 0.03em 0.05em $pink-three;
+  }
+
+  #aboutus {
+    color: $dark;
+  }
+
+  #products{
+    background-color: $pink-two;
+  }
+
+  #forms{
+    background-color: $pink-two !important;
+  }
+
+  #lname, #fname { 
+    border: 0.1em solid $another; 
+    color: $dark-two;  
+  }
+
+  #submit{
+    color: $pink-one;
+    background-color: $dark;
+    font-family: $my-fonts;
+  }
+
+  footer{
+    background-color: $pink-two;
+  }
+
+  q {
+    font-family: $my-fonts;
+    color: $white;
+  }

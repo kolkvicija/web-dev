@@ -1,4 +1,67 @@
-/*$red-bg : red;
-p{
-    background-color: $red-bg;
-}*//*# sourceMappingURL=index.css.map */
+*::-moz-selection {
+  background-color: #ffacc8;
+}
+
+*::selection {
+  background-color: #ffacc8;
+}
+
+main {
+  background-color: #facada;
+}
+
+header h1 {
+  color: white;
+}
+
+nav ul li a {
+  color: white !important;
+  font-family: "Pacifico", "Verdana", cursive;
+}
+
+nav ul li a:hover {
+  background-color: #ff788c;
+  color: white;
+}
+
+p {
+  font-family: "Roboto", cursive;
+  color: #401f24;
+}
+
+.overlay h1 {
+  color: white;
+  text-shadow: 0.03em 0.03em 0.05em #ff788c;
+}
+
+#aboutus {
+  color: #65222c;
+}
+
+#products {
+  background-color: #fda1b3;
+}
+
+#forms {
+  background-color: #fda1b3 !important;
+}
+
+#lname, #fname {
+  border: 0.1em solid #facada;
+  color: #401f24;
+}
+
+#submit {
+  color: #ffacc8;
+  background-color: #65222c;
+  font-family: "Pacifico", "Verdana", cursive;
+}
+
+footer {
+  background-color: #fda1b3;
+}
+
+q {
+  font-family: "Pacifico", "Verdana", cursive;
+  color: white;
+}/*# sourceMappingURL=index.css.map */
