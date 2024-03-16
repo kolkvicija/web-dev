@@ -11,7 +11,6 @@
 
 
 body {
-    background-color: #facada;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     cursor: url("icons8-heart-30.png"), auto;
     margin: 0;
@@ -32,15 +31,15 @@ h1 {
 q{
   float: right;
   font-family: 'Pacifico','Verdana', cursive;
-  color: #ff788c;
+  color: white;
 }
 
 p {
     width: 70%;
     font-family: 'Roboto', cursive;
     line-height: 1.5em;
-    color:#fafafa;
-    text-shadow: 0.03em 0.03em 0.05em #ff788c;
+    color:#401f24;
+    font-style: oblique;
 }
 
 
@@ -69,7 +68,7 @@ nav ul li {
 
 nav ul li a {
     display: inline-block;
-    color: white;
+    color: white !important;
     padding: 0.5em 1.5em;
     text-decoration: none;
     font-family: 'Pacifico','Verdana', cursive;
@@ -98,11 +97,14 @@ nav ul li a:hover {
   }*/
 
   hr{
-    background-color: #facada;
+    border: none !important;
+    background-color: none !important;
+    margin: 3% 0 !important; 
   }
 
   #products{
-    padding-bottom: 3%;
+    padding: 5% 0;
+    background-color: #fda1b3;
   }
   #aboutus {
     padding: 2%;
@@ -120,12 +122,11 @@ nav ul li a:hover {
 
   }
 
- 
-
   #forms{
     display: flex;
-    
+    padding-top: 2%;
     font-size: 0.75em;
+    background-color: #fda1b3 !important;
   }
 
   #contactus{
@@ -138,11 +139,12 @@ nav ul li a:hover {
   }
   
   #newsletter{
-    
-    
-    padding: 0 5% 0 2%;
+    float: right !important;
+    margin-left: 2%;
+    padding: 0 2% 0 5%;
     border-radius: 4%;
     font-size: 1.2em;
+    flex-grow: 1;
   }
 
   #submit{
@@ -171,7 +173,7 @@ nav ul li a:hover {
     justify-content: space-between;
     align-items: center;
     padding: 0 1% 1% 1%;
-    background-color: #facada;
+    background-color: #fda1b3;
   }
 
 
@@ -240,7 +242,7 @@ z-index: -1;
   display: flex;
   height: 2%;
   width: 100%;
-  padding: 0.5% 0.5%; 
+  padding: 0% 0.5%; 
   z-index: 1000;
 }
 
@@ -278,23 +280,29 @@ body.scrolled #nbar {
 
 .secname{
   font-size: 2.5em;
+  margin-bottom: 2%;
     font-family: 'Pacifico','Verdana', cursive;
     text-shadow: 0.03em 0.03em 0.05em rgba(255, 120, 140, 1);
 }
 
 .optone{
   display: inline-block;
-  padding: 2%;
+  padding: 2% !important;
   border-radius: 2%;
   transition: background-color 0.5s ease;
-  height: 20em;
+  height: 25em;
+  color: #401f24!important;
+  text-shadow: 0.03em 0.03em 0.05em  #ff788c  !important;
 }
+
 
 .optone:hover {
   background-color: #ff788c;
   font-family: 'Pacifico','Verdana' cursive;
   color: white;
   box-shadow: 0 0.5em 1.2em rgba(128, 63, 73, 0.2);
+  color: white !important;
+  text-shadow: 0.03em 0.03em 0.05em #facada !important;
 }
 
 .optimg{
@@ -305,7 +313,7 @@ body.scrolled #nbar {
 
 
 label{
-  color: #fafafa;
+  color: #401f24;
   font-style: oblique;
   font-family: 'Roboto';
   }
@@ -320,6 +328,12 @@ label{
     transition: opacity 0.5s, transform 0.5s;
     align-items: center;
   }
+
+  .auone p  {
+    color: #401f24;
+  }
+
+
 
   .auimg{
     height: 60%;
