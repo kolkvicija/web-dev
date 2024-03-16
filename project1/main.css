@@ -18,7 +18,9 @@ body {
 }
 
 
-
+main{
+  background-color: #facada;
+}
 
 h1 {
     color:white;
@@ -34,7 +36,7 @@ q{
 }
 
 p {
-    width: 60%;
+    width: 70%;
     font-family: 'Roboto', cursive;
     line-height: 1.5em;
     color:#fafafa;
@@ -45,6 +47,7 @@ p {
 .nm{
     display: inline-block;
 }
+
 
 nav {
     
@@ -78,7 +81,7 @@ nav ul li a:hover {
     color: white;
   }
 
-  .t1 {
+  /*.t1 {
     border: none;
     border-color: white; 
     height: 1em;
@@ -92,6 +95,10 @@ nav ul li a:hover {
     height: 1em;
     background-image: linear-gradient(to bottom, rgba(255, 120, 140, 0.5), rgba(255, 172, 200, 0)); 
     margin-top: 0;
+  }*/
+
+  hr{
+    background-color: #facada;
   }
 
   #products{
@@ -103,6 +110,7 @@ nav ul li a:hover {
     color:#65222c;
     font-style: oblique;
     background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255, 120, 140, 0.5) 80%);
+    justify-content: center;
   }
 
 
@@ -163,6 +171,7 @@ nav ul li a:hover {
     justify-content: space-between;
     align-items: center;
     padding: 0 1% 1% 1%;
+    background-color: #facada;
   }
 
 
@@ -205,11 +214,11 @@ color: white;
 z-index: 1; 
 }
 
-#navbar{
+#nb{
 z-index: 2;
 }
 
-.container {
+.con {
 position: relative;
 width: 100%;
 height: 30em;
@@ -221,15 +230,17 @@ z-index: -1;
 
 
 #nbar{
-  align-items: center;
-  display: flex;
+  /*align-items: center;
+  
   justify-content: space-between;
   align-items: center;
-  height: 5%;
+  
   position: fixed;
-  top: 0;
+  top: 0;*/
+  display: flex;
+  height: 2%;
   width: 100%;
-  padding: 0.7% 0; 
+  padding: 0.5% 0.5%; 
   z-index: 1000;
 }
 
@@ -239,11 +250,12 @@ header h1{
   font-size: 2em;
 }
 
-#navbar{
+#nb{
   padding-left: 1%;
   padding-top: 1%;
+
 }
-#navbar h1{
+#nb h1{
   font-size: 2.5em;
 }
 
@@ -290,9 +302,7 @@ body.scrolled #nbar {
   height: auto;
 }
 
-#forms{
-  background-image: linear-gradient(to bottom,rgba(255, 120, 140, 0.5),rgba(128, 63, 73, 0));
-}
+
 
 label{
   color: #fafafa;
@@ -304,19 +314,23 @@ label{
     display: flex;
     flex-direction: row;
     margin: 4% 0;
+    padding: 0 2%;
     opacity: 0;
     transform: translateY(50px);
     transition: opacity 0.5s, transform 0.5s;
+    align-items: center;
   }
 
   .auimg{
-    width: 60%;
-    float: right;
+    height: 60%;
     border-radius: 2%;
+    flex-shrink: 0;
   }
 
   .rdesc{
     text-align: right;
+    flex-grow: 1;
+    
   }
 
   .rdesc, .ldesc{
@@ -324,7 +338,6 @@ label{
     margin: 0 3%;
     width: 50%;
     float: left;
-    padding: 20px;
     float: none;
   }
 
@@ -345,7 +358,7 @@ label{
 
   .rdesc, .ldesc {
       width: 80%;
-      font-size: 0.5em; 
+      font-size: 0.8em; 
       text-align: center;
   }
   }
@@ -353,4 +366,12 @@ label{
   footer{
     color:#65222c;
     font-family: 'Roboto';
+  }
+
+  .ovr{
+    justify-content: center;
+  }
+
+  .options .navbar-nav.ml-auto {
+    margin-left: auto !important; 
   }
