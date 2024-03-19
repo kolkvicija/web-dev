@@ -113,7 +113,7 @@ footer{
   padding: 0 1% 1% 1%;
 }
 
-#prodopt{
+.prodopt{
   display: flex;
   justify-content:space-evenly;
   flex-wrap: wrap;
@@ -149,7 +149,6 @@ footer{
   position: relative;
   width: 100%;
   height: 30em;
-  background-image: url('https://cdn.pixabay.com/photo/2020/02/15/17/36/macaroons-4851545_1280.jpg');
   background-size: cover; 
   background-position: center; 
   z-index: -1;
@@ -221,6 +220,12 @@ body.scrolled #nbar {
   text-shadow: 0.03em 0.03em 0.05em  #ff788c  !important;
 }
 
+a {
+  color: #401f24!important;
+  text-decoration: none !important;
+  text-shadow: 0.03em 0.03em 0.05em  #ff788c  !important;
+}
+
 .optone a:hover{
   color: white !important;
   text-shadow: 0.03em 0.03em 0.05em #facada !important;
@@ -277,7 +282,13 @@ label{
   transform: translateY(0);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1040px){
+  .auone {   
+    font-size: 0.7em;
+  }
+}
+
+@media screen and (max-width: 900px) {
   .auone {   
     align-items: center;    
     flex-direction: column;
@@ -289,7 +300,7 @@ label{
 
   .rdesc, .ldesc {
     width: 80%;
-    font-size: 0.8em; 
+    font-size: 0.9em; 
     text-align: center;
   }
 }
@@ -305,4 +316,80 @@ footer{
 
 .options .navbar-nav.ml-auto {
   margin-left: auto !important; 
+}
+
+.product {
+  position: relative;
+  display: inline-block; 
+  margin: 10px;
+}
+
+.circular-image {
+  width: 20em; 
+  height: 20em;
+  border-radius: 50%;
+  overflow: hidden;
+  background-size: cover;
+  z-index: 0;
+}
+
+.circular-image:hover{
+  box-shadow: 0 0.3em 0.8em rgba(255, 120, 140, 0.5);
+  opacity: 0.5;
+}
+
+.optnames {
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  opacity: 0; 
+  transition: opacity 0.3s ease; 
+  z-index: 1;
+}
+
+.product:hover .optnames {
+  opacity: 1;
+}
+
+.bestsellers{
+  padding: 3% 0;
+}
+
+.prodprice{
+  display: flex;
+  align-items: flex-start;
+}
+
+.prodprice section{
+  padding: 0 4%;
+}
+
+.pc{
+  display: flex;
+  align-items: flex-start !important;
+  padding: 2% 2% !important;
+  margin-bottom: 0 !important;
+}
+
+.contact-us{
+  padding: 8% 5%;
+  text-align: center !important;
+}
+
+.contact-us p{
+  width: 100% !important;
+}
+
+.lineargrad{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255, 120, 140, 0.5) 80%);
+}
+
+.prodprice li{
+  list-style-type: none;
+  font-style: oblique;
+}
+
+.aboutproduct{
+  padding: 2% 0;
 }
