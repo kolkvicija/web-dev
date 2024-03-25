@@ -70,6 +70,8 @@ hr{
   display: flex;
   padding-top: 2%;
   font-size: 0.75em;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 #contactus{
@@ -90,21 +92,15 @@ hr{
   flex-grow: 1;
 }
 
-#submit{
-  border-radius: 1em;
-  padding: 1% 5%; 
-  border: none; 
-  cursor: pointer;
-  margin-bottom: 5%;
-}
-
-#lname, #fname {
+#lname, #fname, #name, #email {
   width: 15em;
   padding: 2%; 
   border-radius: 0.5em; 
   font-size: 1em;
   box-sizing: border-box; 
 }
+
+
 
 footer{
   display: flex;
@@ -240,6 +236,7 @@ label{
   color: #401f24;
   font-style: oblique;
   font-family: 'Roboto';
+  margin: 1% 0;
   }
 
 .auone{
@@ -247,6 +244,9 @@ label{
   flex-direction: row;
   margin: 4% 0;
   padding: 0 2%;
+}
+
+.smoothtran{
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 0.5s, transform 0.5s;
@@ -277,9 +277,15 @@ label{
   float: none;
 }
 
-.auone.show {
+.smoothtran.show {
   opacity: 1;
   transform: translateY(0);
+}
+
+.primg{
+  height: 60%;
+  border-radius: 2%;
+  flex-shrink: 0;
 }
 
 @media screen and (max-width: 1040px){
@@ -298,10 +304,54 @@ label{
     width: 60%; 
   }
 
+  .primg{
+    width: 60%;
+    align-self: center;
+  }
+
   .rdesc, .ldesc {
     width: 80%;
-    font-size: 0.9em; 
+    font-size: 1em; 
     text-align: center;
+  }
+  #contactus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 0.1em #65222c;
+    border-top: solid 0.1em #65222c;
+    margin-bottom: 4%;
+  }
+  #contactus p{
+    text-align: right;
+  }
+
+  #newsletter{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+  }
+  #newsletter h1{
+    display: inline;
+  }
+  #newsletter form{
+    width: 50%;
+  }
+
+  footer{
+    font-size: 0.8em;
+  }
+  .pc{
+    display: flex;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 0.7em;
+    padding: 2% 2% !important;
+    margin-bottom: 0 !important;
+
   }
 }
 
@@ -350,10 +400,6 @@ footer{
 
 .product:hover .optnames {
   opacity: 1;
-}
-
-.bestsellers{
-  padding: 3% 0;
 }
 
 .prodprice{

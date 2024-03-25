@@ -5,7 +5,7 @@ window.addEventListener('scroll', function() {
   });
 
   document.addEventListener("DOMContentLoaded", function() {
-var boxes = document.querySelectorAll('.auone');
+var boxes = document.querySelectorAll('.smoothtran');
 
 function checkScroll() {
 var triggerBottom = window.innerHeight * 0.8;

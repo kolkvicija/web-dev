@@ -1,4 +1,5 @@
 $white: white;
+$pink-white: #f9e4eb;
 $another: #facada;
 $pink-one:#ffacc8;
 $pink-two: #fda1b3;
@@ -14,12 +15,16 @@ $pie-site: 'https://cdn.pixabay.com/photo/2020/08/11/13/58/apple-pie-5479993_128
 $my-fonts: 'Pacifico','Verdana', cursive;
 $para: 'Roboto', cursive;
 
+$shadow: 0.03em 0.03em 0.05em #ff788c;
+$shadow-two: 0.03em 0.03em 0.05em white;
+$shadow-three: 0.03em 0.03em 0.05em $dark;
+
 *::selection {
     background-color: $pink-one;
   }  
 
-  main {
-    background-color: $another;
+  main, body {
+    background-color: $another !important;
   }
 
   nav ul li a {
@@ -60,12 +65,6 @@ $para: 'Roboto', cursive;
     color: $dark-two;  
   }
 
-  #submit{
-    color: $pink-one;
-    background-color: $dark;
-    font-family: $my-fonts;
-  }
-
   footer{
     background-color: $pink-two;
   }
@@ -103,6 +102,7 @@ $para: 'Roboto', cursive;
 
   #macone{
     background-image: url("https://cdn.pixabay.com/photo/2017/07/28/14/23/macarons-2548810_1280.jpg");
+    background-size: cover;
   }
 
   #mactwo{
@@ -116,3 +116,73 @@ $para: 'Roboto', cursive;
   #macfour{
     background-image: url("https://cdn.pixabay.com/photo/2019/03/13/15/32/macarons-4053125_1280.jpg");
   }
+
+  @mixin fontstyle($fontcolor, $fontshadow){
+    color: $fontcolor !important;
+    text-shadow: $fontshadow !important;
+    font-family: $my-fonts !important;
+  }
+
+  @mixin button-style{
+      border-radius: 1em;
+      padding: 1% 5%; 
+      border: none; 
+      cursor: pointer;
+      margin-bottom: 5%;
+      color: $pink-one;
+      background-color: $dark;
+      font-family: $my-fonts;
+  }
+
+  .submit{
+    @include button-style();
+  }
+
+  ol li a{
+    @include fontstyle($white, $shadow);
+  }
+
+  .brd{
+    justify-content: right;
+    align-content: center;
+    margin-right: 1% !important;
+  }
+
+  .brdopt{
+    margin-bottom: 0 !important;
+  }
+
+ .active{
+  @include fontstyle($dark, $shadow-two)
+ } 
+
+ .our-bs{
+  @include fontstyle($white, $shadow)
+ }
+
+ .bestsellers{
+  padding: 3% 0;
+  margin: 1% 2%;
+  border-radius: 2em;
+  //background-color: $pink-two;
+  //box-shadow: 0.3em 0.3em 0.3em rgb(255, 255, 255, 0.5);
+}
+
+.modal-content{
+  background-color: $another !important;
+}
+
+h5{
+  @include fontstyle($dark, $shadow )
+}
+
+#modal-submit{
+  margin: 2% 0;
+}
+
+.close{
+  @include button-style();
+  padding: 0.5% 2% !important;
+  margin-bottom: 0 !important;
+  margin-left: auto !important;
+}
