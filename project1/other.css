@@ -47,6 +47,6 @@
   }
 
 
-  .input-mod{
-    padding: 10% !important;
+  #aboutus, #products,  #forms{
+    scroll-margin-top: 50px !important;
   }

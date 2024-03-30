@@ -294,6 +294,42 @@ label{
   }
 }
 
+@media screen and (max-width: 430px){
+  #forms{
+    font-size: 0.5em;
+  }
+
+  .prices{
+    font-size: 0.7em;
+  }
+  
+  .prices h2{
+    font-size: 2.5em !important;
+  }
+
+  .prices section{
+    padding-right: 0 !important;
+  }
+  .prices ul{
+    padding: 0 !important;
+  }
+  .prodprice{
+    justify-content: space-between !important;
+  }
+
+  .contact-us{
+    font-size: 0.7em !important;
+  }
+
+  #newsletter{
+    font-size: 1.2em;
+  }
+
+  .modal{
+    font-size: 0.8em !important;
+  }
+}
+
 @media screen and (max-width: 900px) {
   
   .overlay h1 {
@@ -404,6 +440,12 @@ label{
   .optimg{
     width: 9em;
     height: auto;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 800px) {
+  .prodprice ul{
+    padding-left: 0 !important;
   }
 }
 
