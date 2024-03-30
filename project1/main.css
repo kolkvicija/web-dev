@@ -92,7 +92,7 @@ hr{
   flex-grow: 1;
 }
 
-#lname, #fname, #name, #email {
+#email, #fname, #name, #email {
   width: 15em;
   padding: 2%; 
   border-radius: 0.5em; 
