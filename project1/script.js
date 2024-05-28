@@ -4,7 +4,8 @@ window.addEventListener('scroll', function() {
     document.body.classList.toggle('scrolled', scrolled);
   });
 
-  document.addEventListener("DOMContentLoaded", function() {
+  
+document.addEventListener("DOMContentLoaded", function() {
 var boxes = document.querySelectorAll('.smoothtran');
 
 function checkScroll() {
