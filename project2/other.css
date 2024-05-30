@@ -1,0 +1,52 @@
+#cakone{
+    background-image: url("https://cdn.pixabay.com/photo/2020/02/29/15/20/cake-4890393_1280.jpg");
+  }
+
+  #caktwo{
+    background-image: url("https://cdn.pixabay.com/photo/2018/02/08/18/19/strawberry-pie-3140004_1280.jpg");
+  }
+
+  #cakthree{
+    background-image: url("https://assets.epicurious.com/photos/62f2760d1d5593646cff30bd/1:1/w_4274,h_4274,c_limit/ChineseSponge_RECIPE_080420_37923.jpg");
+  }
+
+  #cakfour{
+    background-image: url("https://theloopywhisk.com/wp-content/uploads/2021/05/White-Chocolate-Cheesecake_730px-featured.jpg");
+  }
+
+  #cupone{
+    background-image: url("https://cdn.pixabay.com/photo/2020/05/01/09/13/cupcakes-5116009_960_720.jpg");
+  }
+
+  #cuptwo{
+    background-image: url("https://www.rainbownourishments.com/wp-content/uploads/2021/02/vegan-strawberry-cupcakes-1.-500x375.jpg");
+  }
+
+  #cupthree{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRQoSqWgJsG6i7aqFOF0u2EGpM7CURecRAfHeHTXTx-SUr9TvSMhk1gc25BQVNBWot3pI&usqp=CAU");
+  }
+
+  #cupfour{
+    background-image: url("https://www.cookwithnabeela.com/wp-content/uploads/2024/02/OreoCupcakes.webp");
+  }
+
+  #cooone{
+    background-image: url("https://www.marcellinaincucina.com/wp-content/uploads/2023/08/italian-butter-cookies-featured.jpg");
+  }
+
+  #cootwo{
+    background-image: url("https://www.cookingclassy.com/wp-content/uploads/2020/02/soft-sugar-cookies-5-500x500.jpg");
+  }
+
+  #coothree{
+    background-image: url("https://theloopywhisk.com/wp-content/uploads/2021/12/Gluten-Free-Lemon-Crinkle-Cookies_730px-featured.jpg");
+  }
+
+  #coofour{
+    background-image: url("https://www.lovefromtheoven.com/wp-content/uploads/2022/04/twix-cookies-40.jpg");
+  }
+
+
+  #aboutus, #products,  #forms{
+    scroll-margin-top: 50px !important;
+  }

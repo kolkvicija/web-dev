@@ -1,0 +1,193 @@
+*::-moz-selection {
+  background-color: #ffacc8;
+}
+
+*::selection {
+  background-color: #ffacc8;
+}
+
+main, body {
+  background-color: #facada !important;
+}
+
+nav ul li a {
+  color: white !important;
+  font-family: "Pacifico", "Verdana", cursive;
+}
+
+nav ul li a:hover {
+  background-color: #ff788c;
+  color: white;
+}
+
+p {
+  font-family: "Roboto", cursive;
+  color: #401f24;
+}
+
+h1 {
+  color: white !important;
+  text-shadow: 0.03em 0.03em 0.05em #ff788c;
+  font-family: "Pacifico", "Verdana", cursive;
+}
+
+#aboutus {
+  color: #65222c;
+}
+
+#products {
+  background-color: #fda1b3;
+}
+
+#forms {
+  background-color: #fda1b3 !important;
+}
+
+#lname, #fname {
+  border: 0.1em solid #facada;
+  color: #401f24;
+}
+
+footer {
+  background-color: #fda1b3;
+}
+
+q {
+  font-family: "Pacifico", "Verdana", cursive;
+  color: white;
+}
+
+#con-main {
+  background-image: url("https://cdn.pixabay.com/photo/2020/02/15/17/36/macaroons-4851545_1280.jpg");
+}
+
+#con-mac {
+  background-image: url("https://cdn.pixabay.com/photo/2019/03/13/15/31/macarons-4053115_1280.jpg");
+}
+
+#con-cup {
+  background-image: url("https://cdn.pixabay.com/photo/2018/03/24/16/08/cake-3257019_1280.jpg");
+}
+
+#con-cak {
+  background-image: url("https://cdn.pixabay.com/photo/2019/01/10/19/36/valentine-3925931_1280.jpg");
+}
+
+#con-pie {
+  background-image: url("https://i0.wp.com/poshlittledesigns.com/wp-content/uploads/2020/04/Pink-Cookie-12.jpg?resize=801%2C500&ssl=1");
+}
+
+.textstyle {
+  color: white !important;
+  text-shadow: 0.03em 0.03em 0.05em #ff788c;
+  font-family: "Pacifico", "Verdana", cursive;
+}
+
+#macone {
+  background-image: url("https://cdn.pixabay.com/photo/2017/07/28/14/23/macarons-2548810_1280.jpg");
+  background-size: cover;
+}
+
+#mactwo {
+  background-image: url("https://cdn.pixabay.com/photo/2020/09/29/16/36/macarons-5613353_1280.jpg");
+}
+
+#macthree {
+  background-image: url("https://img.freepik.com/free-photo/french-macaroons-with-coffee-beans_114579-43480.jpg?t=st=1710699380~exp=1710702980~hmac=c53fe4961d03658b8f1e680ec2ab82619886256df2a474eb15cbd070698e8af5&w=996");
+}
+
+#macfour {
+  background-image: url("https://cdn.pixabay.com/photo/2019/03/13/15/32/macarons-4053125_1280.jpg");
+}
+
+.submit {
+  border-radius: 1em;
+  padding: 1% 5%;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 5%;
+  color: #ffacc8;
+  background-color: #65222c;
+  font-family: "Pacifico", "Verdana", cursive;
+}
+
+ol li a {
+  color: white !important;
+  text-shadow: 0.03em 0.03em 0.05em #ff788c !important;
+  font-family: "Pacifico", "Verdana", cursive !important;
+}
+
+.brd {
+  justify-content: right;
+  align-content: center;
+  margin-right: 1% !important;
+}
+
+.brdopt {
+  margin-bottom: 0 !important;
+}
+
+.active {
+  color: #65222c !important;
+  text-shadow: 0.03em 0.03em 0.05em white !important;
+  font-family: "Pacifico", "Verdana", cursive !important;
+}
+
+.our-bs {
+  color: white !important;
+  text-shadow: 0.03em 0.03em 0.05em #ff788c !important;
+  font-family: "Pacifico", "Verdana", cursive !important;
+}
+
+.bestsellers {
+  padding: 3% 0;
+  margin: 1% 2%;
+  border-radius: 2em;
+}
+
+.modal-content {
+  background-color: #facada !important;
+}
+
+h5 {
+  color: #65222c !important;
+  text-shadow: 0.03em 0.03em 0.05em #ff788c !important;
+  font-family: "Pacifico", "Verdana", cursive !important;
+}
+
+#modal-submit {
+  margin: 2% 0;
+}
+
+.close {
+  border-radius: 1em;
+  padding: 1% 5%;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 5%;
+  color: #ffacc8;
+  background-color: #65222c;
+  font-family: "Pacifico", "Verdana", cursive;
+  padding: 0.5% 2% !important;
+  margin-bottom: 0 !important;
+  margin-left: auto !important;
+}
+
+.toggle-btn {
+  color: #65222c !important;
+  text-shadow: 0.03em 0.03em 0.05em #ff788c !important;
+  font-family: "Pacifico", "Verdana", cursive !important;
+  background-color: #f9e4eb;
+  font-size: 1.5em;
+}
+
+.toggle-btn:hover {
+  background-color: #65222c;
+  color: #f9e4eb !important;
+  text-shadow: 0.03em 0.03em 0.05em #ff788c !important;
+  font-family: "Pacifico", "Verdana", cursive !important;
+}
+
+#gallery {
+  background-color: #fda1b3;
+}/*# sourceMappingURL=index.css.map */

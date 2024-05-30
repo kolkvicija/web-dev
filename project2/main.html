@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pastry</title>
+        <link rel="stylesheet" href="main.css"> 
+        <link rel="stylesheet" href="other.css"> 
+        <link rel="stylesheet" href="index.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="https://img.icons8.com/?size=50&id=10149&format=png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
+    <body class="scrolled">
+        <header id="home">
+            <div class="fixed-top">
+                <nav class="navbar navbar-expand-lg nm" id="nbar">
+                    <div id="nb" class="nm">
+                        <h1 class="nm pacifico-regular align-text-top">Pastry</h1>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse options" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#aboutus">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="modal" data-target="#signupModal">Recipe Book</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#products">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#faq">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#forms">Newsletter</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="signupModalLabel">Get Your Free Recipe Book!</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          <label for="name">Name</label>
+                          <input type="text" class="form-control input-mod" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                          <label for="email">Email address</label>
+                          <input type="email" class="form-control input-mod" id="email" aria-describedby="emailHelp" placeholder="Your Email Address">
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <button type="submit" class="submit" id="modal-submit">Sign Up</button>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <section class="con" id="con-main">
+                <div class="overlay">
+                    <h1 class="pacifico-regular">Welcome!</h1>
+                </div>
+            </section>    
+        </header>
+        <main>  
+            <section id="aboutus">
+                <div class="ovr">
+                    <div class="auone smoothtran">
+                        <div class="rdesc">
+                            <h1 class="secname">About us</h1>
+                            <p class="nm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at libero ipsum. 
+                            Donec facilisis arcu nec tellus pulvinar placerat. Maecenas bibendum, justo et fringilla varius, 
+                            lectus lectus commodo purus, quis accumsan diam dui vestibulum augue. Nullam sit amet fermentum metus. 
+                            Morbi feugiat, velit quis ornare fermentum, ligula arcu viverra dolor, nec scelerisque nisl purus id nisl.
+                            Sed viverra justo at est ultrices, iaculis eleifend justo consectetur. 
+                            </p>
+                        </div>
+                        <img class="auimg" src="https://i.pinimg.com/564x/99/10/10/991010595de59f96452da3a001bf031a.jpg">
+                    </div>
+                    <div class="auone smoothtran">
+                        <img class="auimg" src="https://i.pinimg.com/564x/fe/19/6a/fe196aaf66e0764a8481835a72d02bf2.jpg">
+                            <div class="ldesc">
+                            <h1 class="secname">Mission</h1>
+                            <p class="nm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at libero ipsum. 
+                            Donec facilisis arcu nec tellus pulvinar placerat. Maecenas bibendum, justo et fringilla varius, 
+                            lectus lectus commodo purus, quis accumsan diam dui vestibulum augue. 
+                            </p>
+                            </div>
+                    </div>
+                    <div class="auone smoothtran">
+                        <div class="rdesc">
+                            <h1 class="secname">Vision</h1>
+                            <p class="nm">Maecenas bibendum, justo et fringilla varius, 
+                            lectus lectus commodo purus, quis accumsan diam dui vestibulum augue. Nullam sit amet fermentum metus. 
+                            Morbi feugiat, velit quis ornare fermentum, ligula arcu viverra dolor, nec scelerisque nisl purus id nisl.
+                            Sed viverra justo at est ultrices, iaculis eleifend justo consectetur. 
+                            </p>
+                        </div>
+                        <img class="auimg" src="https://i.pinimg.com/564x/01/3e/3c/013e3cce942f429fbf032f410b0b7ce3.jpg">
+                    </div>
+                </div>
+            </section>
+            <section align="center" id="gallery">
+                <div class="smoothtran">
+                    <h1 class="secname" >Gallery</h1>
+                <div class="prodopt">
+                    <div class="gallery">
+                        <img src="https://i.pinimg.com/236x/4c/2f/ba/4c2fbaf462e4d29f32758854d01c7f2c.jpg" alt="Image 1" class="thumbnail" data-full="https://i.pinimg.com/236x/4c/2f/ba/4c2fbaf462e4d29f32758854d01c7f2c.jpg">
+                        <img src="https://i.pinimg.com/236x/4c/2f/ba/4c2fbaf462e4d29f32758854d01c7f2c.jpg" alt="Image 1" class="thumbnail" data-full="https://i.pinimg.com/236x/4c/2f/ba/4c2fbaf462e4d29f32758854d01c7f2c.jpg">
+                        <img src="https://i.pinimg.com/236x/4c/2f/ba/4c2fbaf462e4d29f32758854d01c7f2c.jpg" alt="Image 1" class="thumbnail" data-full="https://i.pinimg.com/236x/4c/2f/ba/4c2fbaf462e4d29f32758854d01c7f2c.jpg">
+                
+                    </div>
+                </div>
+                </div>
+                
+            </section>
+            <!--TO DO-->
+            <div id="modal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="modal-img">
+                <div id="caption"></div>
+            </div>
+            <section align="center" id="products">
+                <div class="smoothtran">
+                    <h1 class="secname" >Products</h1>
+                <div class="prodopt">
+                    <div class="optone">
+                        <a href="macarons.html">
+                            <div class="ovl">
+                                <h2 class="pacifico-regular">Macarons</h2>
+                                <img class="optimg" src="https://static.vecteezy.com/system/resources/previews/026/757/722/original/macaron-with-ai-generated-free-png.png">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="optone">
+                        <a href="cakes.html">
+                            <div class="ovl">
+                                <h2 class="pacifico-regular">Cakes</h2>
+                                <img class="optimg" src="https://static.vecteezy.com/system/resources/previews/027/522/308/original/chocolate-cake-happy-birthday-chocolate-cake-ai-generative-free-png.png">
+                            </div>
+                        </a>
+                    </div>    
+                    <div class="optone">
+                        <a href="cupcakes.html">
+                            <div class="ovl">
+                                <h2 class="pacifico-regular">Cupcakes</h2>
+                                <img class="optimg" src="https://static.vecteezy.com/system/resources/previews/022/228/586/original/set-of-birthday-colorful-cupcake-free-png.png">
+                            </div>
+                        </a>
+                    </div>  
+                    <div class="optone">
+                        <a href="cookies.html">
+                            <div class="ovl">
+                                <h2 class="pacifico-regular">Cookies</h2>
+                                <img class="optimg" src="https://assets.caseys.com/m/209fe9deebc694e6/400x400-9843710122_base.PNG">
+                            </div>
+                        </a>
+                    </div> 
+
+                </div>
+                </div>
+                
+            </section>
+            <section align="center" id="products">
+                <div class="smoothtran">
+                    <h1 class="secname" >Frequently Asked Questions</h1>
+                <div class="prodopt"> 
+                    <div class="faqc">
+                        <button class="toggle-btn" data-target="section1">Cras non vulputate eros, non posuere sapien?</button>
+                        <div id="section1" class="toggle-content">
+                            
+                            <p class="faqtxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Sed ullamcorper egestas iaculis. Nullam porttitor fermentum ante 
+                                at elementum. Aenean quis gravida sapien. Vestibulum convallis 
+                                dolor non tortor vestibulum efficitur a sit amet nulla. Nunc 
+                                condimentum laoreet est, 
+                                non dictum nisi dignissim sit amet. Maecenas congue lacinia nisi. </p>
+                        </div>
+                
+                        <button class="toggle-btn" data-target="section2">Praesent nisl enim, aliquam condimentum neque quis, aliquet eleifend nisl?</button>
+                        <div id="section2" class="toggle-content">
+                            <p class="faqtxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Sed ullamcorper egestas iaculis. Nullam porttitor fermentum ante 
+                                at elementum. Aenean quis gravida sapien. Vestibulum convallis 
+                                dolor non tortor vestibulum efficitur a sit amet nulla.</p>
+                        </div>
+
+                        <button class="toggle-btn" data-target="section3">Proin lacinia pulvinar elit?</button>
+                        <div id="section3" class="toggle-content">
+                            <p class="faqtxt">Nam vel tincidunt elit. Morbi maximus, augue eu sagittis dignissim,
+                                nibh elit blandit nisl, 
+                                venenatis ornare neque nisi vitae velit.</p>
+                        </div>
+                
+                    </div>
+                </div>
+                </div>
+                
+            </section>
+            <section id="forms">
+                <section id="contactus">
+                    <h1 class="secname">Contact us!</h1>
+                    <p>Katarina Šolaja<br>
+                    +1 (555) 123-4567<br>
+                    dummy@example.com<br>
+                    123 Main Street, Cityville, State, Country, 12345</p> 
+                </section>
+                <section id="newsletter">
+                    <h1 class="secname">Subscribe to our newsletter:</h1>
+                    <form>
+                        <label for="fname">Your name:</label><br>
+                        <input type="text" id="fname" name="fname" placeholder="John Doe" required><br><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" placeholder="johndoe@email.com" required><br><br>
+                        <input type="checkbox" id="priv" name="priv"required>
+                        <label for="priv">I agree to Privacy Policy and Terms of Service.</label>
+                        <br><br>
+                        <input type="submit" value="Submit" id="submit" class="submit">
+                    </form> 
+                </section>
+            </section>
+        </main>
+        <footer>
+            &#169; 2024, Kolkvicija
+            <q>Baking is love made visible.</q>
+        </footer>
+        <script src="script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>

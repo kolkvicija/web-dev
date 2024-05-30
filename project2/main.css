@@ -1,0 +1,699 @@
+.pacifico-regular {
+  font-family: "Pacifico", 'Verdana', cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    cursor: url("icons8-heart-30.png"), auto;
+    margin: 0;
+}
+
+q {
+  float: right;
+}
+
+p {
+  width: 70%;
+  line-height: 1.5em;
+  font-style: oblique;
+}
+
+.nm{
+  display: inline-block;
+}
+
+nav {
+    
+  padding: 1em 0;
+  padding-top: 1%;
+  padding-right: 1%;
+  float: right;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  transition: background-color 0.5s ease;
+}
+
+hr{
+  border: none !important;
+  background-color: none !important;
+  margin: 3% 0 !important; 
+}
+
+#products{
+  padding: 5% 0;
+}
+  
+#aboutus {
+  padding: 2%;
+  font-style: oblique;
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255, 120, 140, 0.5) 80%);
+  justify-content: center;
+}
+
+#forms{
+  display: flex;
+  padding-top: 2%;
+  font-size: 0.75em;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#contactus{
+  width: 50%;
+  padding: 5%;
+}
+
+#contactus h1{
+  margin-bottom: 2%;
+}
+  
+#newsletter{
+  float: right !important;
+  margin-left: 2%;
+  padding: 0 2% 0 5%;
+  border-radius: 4%;
+  font-size: 1.2em;
+  flex-grow: 1;
+}
+
+#email, #fname, #name, #email {
+  width: 15em;
+  padding: 2%; 
+  border-radius: 0.5em; 
+  font-size: 1em;
+  box-sizing: border-box; 
+}
+
+
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1% 1% 1%;
+}
+
+.prodopt{
+  display: flex;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #facada 65%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.overlay h1 {
+  font-size: 6em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  z-index: 1; 
+}
+
+#nb{
+  z-index: 2;
+}
+
+.con {
+  position: relative;
+  width: 100%;
+  height: 25em;
+  background-size: cover; 
+  background-position: center; 
+  z-index: -1;
+}
+
+#nbar{
+  display: flex;
+  height: 2%;
+  width: 100%;
+  padding: 0% 0.5%; 
+  z-index: 1000;
+}
+
+header h1{
+  font-size: 2em;
+}
+
+#nb{
+  padding-left: 1%;
+  padding-top: 1%;
+
+}
+
+#nb h1{
+  font-size: 2.5em;
+}
+/*Do ovdje si došla sa sređivanjem*/
+
+#nbar {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+#nbar:hover {
+  background-color: #facada;
+}
+
+body.scrolled #nbar {
+  background-color: #facada; 
+  box-shadow: 0 0.3em 0.8em rgba(255, 120, 140, 0.1);
+}
+
+.secname{
+  font-size: 2.5em;
+  margin-bottom: 2%;
+    font-family: 'Pacifico','Verdana', cursive;
+    text-shadow: 0.03em 0.03em 0.05em rgba(255, 120, 140, 1);
+}
+
+.optone{
+  display: inline-block;
+  padding: 2% !important;
+  border-radius: 2%;
+  transition: background-color 0.5s ease;
+  height: 25em;
+  
+  
+}
+
+.optone:hover {
+  background-color: #ff788c;
+  font-family: 'Pacifico','Verdana' cursive;
+  box-shadow: 0 0.5em 1.2em rgba(128, 63, 73, 0.2);
+}
+
+.optone a {
+  color: #401f24!important;
+  text-decoration: none !important;
+  text-shadow: 0.03em 0.03em 0.05em  #ff788c  !important;
+}
+
+a {
+  color: #401f24!important;
+  text-decoration: none !important;
+  text-shadow: 0.03em 0.03em 0.05em  #ff788c  !important;
+}
+
+.optone a:hover{
+  color: white !important;
+  text-shadow: 0.03em 0.03em 0.05em #facada !important;
+}
+
+.optimg{
+  width: 18em;
+  height: auto;
+}
+
+label{
+  color: #401f24;
+  font-style: oblique;
+  font-family: 'Roboto';
+  margin: 1% 0;
+  }
+
+.auone{
+  display: flex;
+  flex-direction: row;
+  margin: 4% 0;
+  padding: 0 2%;
+}
+
+.smoothtran{
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s, transform 0.5s;
+  align-items: center;
+}
+
+.auone p  {
+  color: #401f24;
+}
+
+.auimg{
+  height: 60%;
+  border-radius: 2%;
+  flex-shrink: 0;
+}
+
+.rdesc{
+  text-align: right;
+  flex-grow: 1;
+  
+}
+
+.rdesc, .ldesc{
+  
+  margin: 0 3%;
+  width: 50%;
+  float: left;
+  float: none;
+}
+
+.smoothtran.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.primg{
+  height: 60%;
+  border-radius: 2%;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 1040px){
+  .auone {   
+    font-size: 0.7em;
+  }
+}
+
+@media screen and (max-width: 430px){
+  #forms{
+    font-size: 0.5em;
+  }
+
+  .prices{
+    font-size: 0.7em;
+  }
+  
+  .prices h2{
+    font-size: 2.5em !important;
+  }
+
+  .prices section{
+    padding-right: 0 !important;
+  }
+  .prices ul{
+    padding: 0 !important;
+  }
+  .prodprice{
+    justify-content: space-between !important;
+  }
+
+  .contact-us{
+    font-size: 0.7em !important;
+  }
+
+  #newsletter{
+    font-size: 1.2em;
+  }
+
+  .modal{
+    font-size: 0.8em !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  
+  .overlay h1 {
+    font-size: 4em;
+  }
+  .auone {   
+    align-items: center;    
+    flex-direction: column;
+      
+  }
+  .auimg {
+    width: 60%; 
+  }
+
+  .primg{
+    width: 60%;
+    align-self: center;
+  }
+
+  .rdesc, .ldesc {
+    width: 80%;
+    font-size: 1em; 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #contactus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 0.1em #65222c;
+    border-top: solid 0.1em #65222c;
+    margin-bottom: 4%;
+    padding: 5% 0;
+  }
+  #contactus p{
+    text-align: right;
+    padding-left: 5%;
+  }
+
+  #newsletter{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+  }
+  #newsletter h1{
+    display: inline;
+  }
+  #newsletter form{
+    width: 70%;
+  }
+
+  footer{
+    font-size: 0.8em;
+  }
+  .pc{
+    display: flex;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 0.7em;
+    padding: 2% 2% !important;
+    margin-bottom: 0 !important;
+  }
+
+  .pc img{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .prices{
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important;
+    
+  }
+
+  .prodprice{
+    margin-top: 2%;
+  }
+  .prodprice ul{
+   padding-left: 1em;
+   text-align: left;
+
+  }
+  .prodprice li{
+   font-size: 1em;
+   width: 130%;
+
+  }
+  .circular-image{
+    width: 10em !important;
+    height: 10em !important;
+  }
+
+  .contact-us{
+    font-size: 0.8em;
+  }
+  
+  .optone{
+    height: 12em;
+    margin-top: 2%;
+  }
+  
+  .optimg{
+    width: 9em;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 800px) {
+  .prodprice ul{
+    padding-left: 0 !important;
+  }
+}
+
+footer{
+  color:#65222c;
+  font-family: 'Roboto';
+}
+
+.ovr{
+  justify-content: center;
+}
+
+.options .navbar-nav.ml-auto {
+  margin-left: auto !important; 
+}
+
+.product {
+  position: relative;
+  display: inline-block; 
+  margin: 10px;
+}
+
+.circular-image {
+  width: 20em; 
+  height: 20em;
+  border-radius: 50%;
+  overflow: hidden;
+  background-size: cover;
+  z-index: 0;
+}
+
+.circular-image:hover{
+  box-shadow: 0 0.3em 0.8em rgba(255, 120, 140, 0.5);
+  opacity: 0.5;
+}
+
+.optnames {
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  opacity: 0; 
+  transition: opacity 0.3s ease; 
+  z-index: 1;
+}
+
+.product:hover .optnames {
+  opacity: 1;
+}
+
+.prodprice{
+  display: flex;
+  align-items: flex-start;
+}
+
+.prodprice section{
+  padding: 0 4%;
+}
+
+.pc{
+  display: flex;
+  align-items: flex-start !important;
+  padding: 2% 2% !important;
+  margin-bottom: 0 !important;
+}
+
+.contact-us{
+  padding: 8% 5%;
+  text-align: center !important;
+}
+
+.contact-us p{
+  width: 100% !important;
+}
+
+.lineargrad{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255, 120, 140, 0.5) 80%);
+}
+
+.prodprice li{
+  list-style-type: none;
+  font-style: oblique;
+}
+
+.aboutproduct{
+  padding: 2% 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.thumbnail {
+  width: 150px;
+  height: 100px;
+  margin: 10px;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/*.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}*/
+
+.faqc{
+  margin: 2em;
+  padding: 2em;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.toggle-btn {
+  display: block;
+  margin: 2% 0;
+  padding: 2% 5%;
+  width: 50%;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+
+.toggle-content {
+  display: none;
+  margin: 0.5% 0;
+  padding: 2%;
+  width: 50%;
+}
+
+.faqtxt{
+  display: block !important;
+  width: 100% !important;
+}
+
+.accordion {
+  width: 800px;
+  margin: 90px auto;
+  color: black;
+  background-color: white;
+  padding: 45px 45px;
+}
+
+.accordion .container {
+  position: relative;
+  margin: 10px 10px;
+}
+
+/* Positions the labels relative to the .container. Adds padding to the top and bottom and increases font size. Also makes its cursor a pointer */
+
+.accordion .label {
+  position: relative;
+  padding: 10px 0;
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+}
+
+
+/* Positions the plus sign 5px from the right. Centers it using the transform property. */
+
+.accordion .label::before {
+  content: '+';
+  color: black;
+  position: absolute;
+  top: 50%;
+  right: -5px;
+  font-size: 30px;
+  transform: translateY(-50%);
+}
+
+/* Hides the content (height: 0), decreases font size, justifies text and adds transition */
+
+.accordion .content {
+  position: relative;
+  background: white;
+  height: 0;
+  font-size: 20px;
+  text-align: justify;
+  width: 780px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+/* Adds a horizontal line between the contents */
+
+.accordion hr {
+  width: 100;
+  margin-left: 0;
+  border: 1px solid grey;
+}
+/* Unhides the content part when active. Sets the height */
+
+.accordion .container.active .content {
+  height: 150px;
+}
+
+/* Changes from plus sign to negative sign once active */
+
+.accordion .container.active .label::before {
+  content: '-';
+  font-size: 30px;
+}
