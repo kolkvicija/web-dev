@@ -262,4 +262,193 @@ h5 {
   font-family: "Pacifico", "Verdana", cursive;
   border-radius: 2em;
   text-shadow: 0.03em 0.03em 0.05em #ff788c;
+}
+
+.dark-theme *::-moz-selection {
+  background-color: white;
+}
+
+.dark-theme *::selection {
+  background-color: white;
+}
+
+.dark-theme main, body {
+  background-color: #401f24 !important;
+}
+
+.dark-theme nav ul li a {
+  color: white !important;
+}
+
+.dark-theme label {
+  color: white;
+}
+
+.dark-theme .submit {
+  background-color: white;
+  color: #ff788c;
+}
+
+.dark-theme nav ul li a:hover {
+  background-color: #ffacc8;
+  color: white;
+}
+
+.dark-theme p {
+  color: #f9e4eb;
+}
+
+.dark-theme h1 {
+  color: white !important;
+  text-shadow: 0.03em 0.03em 0.05em #ff788c;
+}
+
+.dark-theme #aboutus {
+  color: #65222c;
+}
+
+.dark-theme #products {
+  background-color: #65222c;
+}
+
+.dark-theme #forms {
+  background-color: #65222c !important;
+}
+
+.dark-theme footer {
+  background-color: #65222c;
+}
+
+q {
+  font-family: "Pacifico", "Verdana", cursive;
+  color: white;
+}
+
+.dark-theme #aboutus {
+  padding: 2%;
+  font-style: oblique;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #65222c 80%);
+  justify-content: center;
+}
+
+.dark-theme #nbar:hover {
+  background-color: #65222c;
+}
+
+.dark-theme body.scrolled #nbar {
+  background-color: #65222c;
+  box-shadow: 0 0.3em 0.8em rgba(255, 120, 140, 0.1);
+}
+
+.dark-theme .secname {
+  font-size: 2.5em;
+  margin-bottom: 2%;
+  font-family: "Pacifico", "Verdana", cursive;
+  text-shadow: 0.03em 0.03em 0.05em rgb(255, 120, 140);
+}
+
+.dark-theme h4 {
+  margin-bottom: 2%;
+  font-family: "Pacifico", "Verdana", cursive;
+  text-shadow: 0.03em 0.03em 0.05em rgb(255, 120, 140);
+}
+
+.dark-theme .overlay {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #401f24 65%);
+}
+
+.dark-theme .optone:hover {
+  background-color: #ff788c;
+}
+
+.dark-theme .optone a {
+  color: #ffacc8 !important;
+}
+
+.dark-theme a {
+  color: #f9e4eb !important;
+}
+
+.dark-theme .auone p {
+  color: #ffacc8;
+}
+
+.dark-theme footer {
+  color: #f9e4eb;
+  font-family: "Roboto";
+}
+
+.dark-theme h2 {
+  color: #f9e4eb;
+}
+
+.dark-theme .optone h2:hover {
+  color: #65222c;
+}
+
+.submit {
+  border-radius: 1em;
+  padding: 1% 5%;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 5%;
+  color: #ffacc8;
+  background-color: #65222c;
+  font-family: "Pacifico", "Verdana", cursive;
+}
+
+ol li a {
+  color: white !important;
+  text-shadow: 0.03em 0.03em 0.05em #ff788c !important;
+  font-family: "Pacifico", "Verdana", cursive !important;
+}
+
+.brd {
+  justify-content: right;
+  align-content: center;
+  margin-right: 1% !important;
+}
+
+.brdopt {
+  margin-bottom: 0 !important;
+}
+
+.active {
+  color: #facada !important;
+  text-shadow: 0.03em 0.03em 0.05em white !important;
+  font-family: "Pacifico", "Verdana", cursive !important;
+}
+
+.our-bs {
+  color: white !important;
+  text-shadow: 0.03em 0.03em 0.05em #ff788c !important;
+  font-family: "Pacifico", "Verdana", cursive !important;
+}
+
+.bestsellers {
+  padding: 3% 0;
+  margin: 1% 2%;
+  border-radius: 2em;
+}
+
+.modal-content {
+  background-color: #65222c !important;
+}
+
+h5 {
+  color: #facada !important;
+  text-shadow: 0.03em 0.03em 0.05em #ff788c !important;
+  font-family: "Pacifico", "Verdana", cursive !important;
+}
+
+.dark-theme #gallery {
+  background-color: #65222c;
+}
+
+.dark-theme #faqsection {
+  background-color: #65222c !important;
+}
+
+.dark-theme .accordion-header {
+  background-color: white;
 }/*# sourceMappingURL=index.css.map */

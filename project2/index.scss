@@ -275,11 +275,189 @@ h5{
 }
 
 
+//DARK THEME
+
+.dark-theme *::selection {
+  background-color: $white;
+}  
+
+.dark-theme main, body {
+  background-color: $dark-two !important;
+}
+
+.dark-theme nav ul li a {
+  color: $white !important;
+  
+}
+.dark-theme label{
+  color: $white;
+}
+
+.dark-theme .submit{
+  background-color: white;
+  color: $pink-three;
+}
+.dark-theme nav ul li a:hover {
+  background-color: $pink-one;
+  color: $white;
+}
+
+.dark-theme p {
+  color: $pink-white;
+}
+
+.dark-theme h1 {
+  color: $white !important;
+  text-shadow: 0.03em 0.03em 0.05em $pink-three;
+}
+
+.dark-theme #aboutus {
+  color: $dark;
+}
+
+.dark-theme #products{
+  background-color: $dark;
+}
+
+.dark-theme #forms{
+  background-color: $dark !important;
+}
+
+
+.dark-theme footer{
+  background-color: $dark;
+}
+
+q {
+  font-family: $my-fonts;
+  color: $white;
+}
+
+.dark-theme #aboutus {
+  padding: 2%;
+  font-style: oblique;
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%, $dark 80%);
+  justify-content: center;
+}
+
+.dark-theme #nbar:hover {
+  background-color: $dark;
+}
+
+.dark-theme body.scrolled #nbar {
+  background-color: $dark; 
+  box-shadow: 0 0.3em 0.8em rgba(255, 120, 140, 0.1);
+}
+
+.dark-theme .secname{
+  font-size: 2.5em;
+  margin-bottom: 2%;
+    font-family: 'Pacifico','Verdana', cursive;
+    text-shadow: 0.03em 0.03em 0.05em rgba(255, 120, 140, 1);
+}
+
+.dark-theme h4{
+  margin-bottom: 2%;
+    font-family: 'Pacifico','Verdana', cursive;
+    text-shadow: 0.03em 0.03em 0.05em rgba(255, 120, 140, 1);
+}
+
+.dark-theme .overlay {
+  
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, $dark-two 65%);
+}
+
+.dark-theme .optone:hover {
+  background-color: $pink-three;
+ 
+}
+
+.dark-theme .optone a {
+  color: $pink-one!important;
+  
+}
+
+.dark-theme a {
+  color: $pink-white !important;
+  
+}
+
+
+.dark-theme .auone p  {
+  color: $pink-one;
+}
+
+.dark-theme footer{
+  color:$pink-white;
+  font-family: 'Roboto';
+}
+
+
+.dark-theme h2{
+  color: $pink-white;
+}
+
+.dark-theme .optone h2:hover{
+  color: $dark;
+}
 
 
 
 
+.submit{
+  @include button-style();
+}
+
+ol li a{
+  @include fontstyle($white, $shadow);
+}
+
+.brd{
+  justify-content: right;
+  align-content: center;
+  margin-right: 1% !important;
+}
+
+.brdopt{
+  margin-bottom: 0 !important;
+}
+
+.active{
+@include fontstyle($another, $shadow-two)
+} 
+
+.our-bs{
+@include fontstyle($white, $shadow)
+}
+
+.bestsellers{
+padding: 3% 0;
+margin: 1% 2%;
+border-radius: 2em;
+//background-color: $pink-two;
+//box-shadow: 0.3em 0.3em 0.3em rgb(255, 255, 255, 0.5);
+}
+
+.modal-content{
+background-color: $dark !important;
+}
+
+h5{
+@include fontstyle($another, $shadow )
+}
 
 
 
 
+.dark-theme #gallery{
+background-color: $dark;
+}
+
+.dark-theme #faqsection{
+background-color: $dark !important;
+}
+
+.dark-theme .accordion-header {
+background-color: $white;
+
+}

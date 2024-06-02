@@ -1,0 +1,138 @@
+$white: white;
+$pink-white: #f9e4eb;
+$another: #facada;
+$pink-one:#ffacc8;
+$pink-two: #fda1b3;
+$pink-three: #ff788c;
+$dark: #65222c;
+$dark-two: #401f24;
+$main-site: 'https://cdn.pixabay.com/photo/2020/02/15/17/36/macaroons-4851545_1280.jpg';
+$mac-site: 'https://cdn.pixabay.com/photo/2019/03/13/15/31/macarons-4053115_1280.jpg';
+$cup-site: 'https://cdn.pixabay.com/photo/2018/03/24/16/08/cake-3257019_1280.jpg';
+$cak-site: 'https://cdn.pixabay.com/photo/2019/01/10/19/36/valentine-3925931_1280.jpg';
+$pie-site: 'https://i0.wp.com/poshlittledesigns.com/wp-content/uploads/2020/04/Pink-Cookie-12.jpg?resize=801%2C500&ssl=1';
+
+$my-fonts: 'Pacifico','Verdana', cursive;
+$para: 'Roboto', cursive;
+
+$shadow: 0.03em 0.03em 0.05em #ff788c;
+$shadow-two: 0.03em 0.03em 0.05em white;
+$shadow-three: 0.03em 0.03em 0.05em $dark;
+
+/* Base styles */
+
+.dark-theme body,
+.dark-theme main {
+  background-color: $dark !important; /* Using dark color for background */
+}
+
+/* Links */
+
+.dark-theme a,
+.dark-theme a:hover {
+  color: $pink-one !important; /* Using pink-one for link color */
+  text-decoration: none !important;
+  text-shadow: 0.03em 0.03em 0.05em $dark-three !important; /* Using dark-three for text shadow */
+}
+
+/* Navigation */
+
+.dark-theme nav ul li a {
+  color: $white !important; /* Maintains white color for navigation links */
+}
+
+.dark-theme nav ul li a:hover {
+  background-color: $pink-three; /* Using pink-three for hover background */
+  color: $white; /* Maintains white color for text on hover */
+}
+
+/* Paragraphs */
+
+.dark-theme p {
+  color: $white !important; /* Using white color for text */
+}
+
+/* Headings */
+
+.dark-theme h1 {
+  color: $white !important; /* Maintains white color for headings */
+  text-shadow: 0.03em 0.03em 0.05em $pink-three !important; /* Using pink-three for text shadow */
+}
+
+/* About Us Section */
+
+.dark-theme #aboutus {
+  color: $pink-one !important; /* Using pink-one for text color */
+}
+
+/* Products Section */
+
+.dark-theme #products {
+  background-color: $dark-two !important; /* Using dark-two for background color */
+}
+
+/* Forms */
+
+.dark-theme #forms {
+  background-color: $dark-two !important; /* Using dark-two for background color */
+}
+
+.dark-theme #lname,
+.dark-theme #fname {
+  border: 0.1em solid $another; /* Maintains border color */
+  color: $white !important; /* Using white color for text */
+}
+
+/* Footer */
+
+.dark-theme footer {
+  background-color: $dark-two !important; /* Using dark-two for background color */
+  color: $white !important; /* Using white color for text */
+}
+
+/* Quotes */
+
+.dark-theme q {
+  color: $white !important; /* Maintains white color for text */
+}
+
+/* Section Names */
+
+.dark-theme .secname,
+.dark-theme h4 {
+  color: $pink-one !important; /* Using pink-one for text color */
+  text-shadow: 0.03em 0.03em 0.05em $dark-three !important; /* Using dark-three for text shadow */
+}
+
+/* Option Buttons */
+
+.dark-theme .optone:hover {
+  background-color: $pink-three; /* Using pink-three for hover background color */
+  box-shadow: 0 0.5em 1.2em rgba(0, 0, 0, 0.2); /* Using black for shadow */
+}
+
+.dark-theme .optone a {
+  color: $white !important; /* Using white color for text */
+  text-shadow: 0.03em 0.03em 0.05em $dark-three !important; /* Using dark-three for text shadow */
+}
+
+.dark-theme .optone a:hover {
+  color: $pink-one !important; /* Using pink-one for hover text color */
+  text-shadow: 0.03em 0.03em 0.05em $another !important; /* Using another for text shadow */
+}
+
+/* About Us Text */
+
+.dark-theme .auone p {
+  color: $white !important; /* Using white color for text */
+}
+
+/* Text Style */
+
+.dark-theme .textstyle {
+  color: $white !important; /* Maintains white color for text */
+  text-shadow: 0.03em 0.03em 0.05em $pink-three !important; /* Using pink-three for text shadow */
+}
+
+/* Modal Content */
+
