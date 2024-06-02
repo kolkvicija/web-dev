@@ -80,6 +80,12 @@ body.scrolled #nbar {
   text-shadow: 0.03em 0.03em 0.05em rgb(255, 120, 140);
 }
 
+h4 {
+  margin-bottom: 2%;
+  font-family: "Pacifico", "Verdana", cursive;
+  text-shadow: 0.03em 0.03em 0.05em rgb(255, 120, 140);
+}
+
 .optone:hover {
   background-color: #ff788c;
   font-family: "Pacifico", "Verdana" cursive;

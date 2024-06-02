@@ -1,48 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Pastry</title>
-        <link rel="stylesheet" href="main.css"> 
-        <link rel="stylesheet" href="index.css"> 
-        <link rel="stylesheet" href="other.css"> 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-        <link rel="icon" type="image/x-icon" href="https://img.icons8.com/?size=50&id=10149&format=png">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    </head>
-    <body class="scrolled">
-        <header id="home">
-            <div class="fixed-top">
-                <nav class="navbar navbar-expand-lg nm" id="nbar">
-                    <div id="nb" class="nm">
-                        <h1 class="nm pacifico-regular align-text-top">Pastry</h1>
-                    </div>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse options brd" id="navbarSupportedContent">
-                        <ol class="breadcrumb brdopt">
-                            <li class="breadcrumb-item"><a href="main.html">Home</a></li>
-                            <li class="breadcrumb-item"><a href="main.html#products">Products</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Macarons</li>
-                          </ol>
-                    </div>
-                </nav>
-            </div>
-            <section class="con" id="con-cak">
-                <div class="overlay">
-                    <h1 class="pacifico-regular">Cakes!</h1>
-                </div>
-            </section>    
-        </header>
+<h1 class="pacifico-regular">Cakes!</h1>
         <main>
-            <section align="center" class="bestsellers smoothtran">
+            <section align="center" class="bestsellers">
                 <h1>Our bestsellers</h1>
                 <a href="#pricing"><h6>View all ></h6></a>
                 <div class="prodopt">
@@ -69,7 +27,7 @@
                 </div>
             </section>
             <section class="aboutproduct">
-                <div class="auone smoothtran">
+                <div class="auone">
                     <div class="rdesc">
                         <h1 class="secname">Cakes</h1>
                         <p class="nm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at libero ipsum. 
@@ -83,47 +41,55 @@
                 </div>
                 <hr id="pricing">
             </section>
-            <section class="prices smoothtran" >
+            <section class="prices" >
                 <h1 class="secname" align="center">Prices</h1>
                 <div class="pc">
                     <img class="primg" src="https://i.pinimg.com/564x/0e/5e/85/0e5e8564d8d785225eb9f2f123dd78f1.jpg">
                         <div class="ldesc">
-                        <div class="nm prodprice">
-                            <section>
-                                <h2 class="textstyle">Classic</h2>
-                                <ul>
-                                    <li>Vanilla - $20</li>
-                                    <li>Chocolate - $22</li>
-                                    <li>Red Velvet - $25</li>
-                                    <li>Carrot - $28</li>
-                                    <li>Lemon - $26</li>
-                                    <li>Marble - $24</li>
-                                    <li>Strawberry - $27</li>
-                                    <li>Coconut - $29</li>
-                                    <li>Funfetti - $23</li>
-                                </ul>
-                            </section>
+                            <div class="nm prodprice">
                             
-                            <section>
-                                <h2 class="textstyle">Premium</h2>
-                                <ul>
-                                    <li>Coffee - $38</li>
-                                    <li>Hazelnut - $37</li>
-                                    <li>Orange - $35</li>
-                                    <li>Pistachio - $39</li>
-                                    <li>Raspberry - $37</li>
-                                    <li>Tiramisu - $35</li>
-                                </ul>
-                            </section>
-                            <section>
-                                <h2 class="textstyle">Special</h2>
-                                <ul>
-                                    <li>Salted Caramel - $47</li>
-                                    <li>Snickerdoodle - $46</li>
-                                    <li>Spiced Apple - $49</li>
-                                    <li>Vanilla Bean - $48</li>
-                                </ul>
-                            </section>
+                                <div class="menu-container">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">Classic</h2>
+                                  <div class="accordion-content">
+                                    <ul>
+                                      <li>Vanilla - $3.00</li>
+                                      <li>Chocolate - $3.00</li>
+                                      <li>Red Velvet - $3.50</li>
+                                      <li>Carrot - $3.50</li>
+                                      <li>Lemon - $3.50</li>
+                                      <li>Marble - $4.00</li>
+                                      <li>Strawberry - $4.00</li>
+                                      <li>Coconut - $4.00</li>
+                                      <li>Funfetti - $4.00</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">Premium</h2>
+                                  <div class="accordion-content">
+                                    <ul>
+                                      <li>Banana - $5.00</li>
+                                      <li>Pineapple - $5.00</li>
+                                      <li>Blueberry - $5.00</li>
+                                      <li>Pistachio - $5.00</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">Special</h2>
+                                  <div class="accordion-content">
+                                    <ul>
+                                      <li>Coffee - $6.50</li>
+                                      <li>Hazelnut - $6.50</li>
+                                      <li>Raspberry - $7.00</li>
+                                      <li>Tiramisu - $7.00</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            
+                            
                         </div>
                         </div>
             </section>
@@ -140,9 +106,15 @@
             &#169; 2024, Kolkvicija
             <q>Baking is love made visible.</q>
         </footer>
-        <script src="script.js"></script>
+        <script src="C:\Webdev - Katarina\project2\script.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    </body>
-</html>
+ 
+        <script>
+            document.querySelectorAll('.accordion-item .accordion-header').forEach(header => {
+                  header.addEventListener('click', () => {
+                      header.nextElementSibling.classList.toggle('active');
+                  });
+              });
+          </script>
