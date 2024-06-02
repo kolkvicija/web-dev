@@ -1,0 +1,26 @@
+{
+    "Classic": [
+      {"name": "Vanilla", "price": "$3.00"},
+      {"name": "Chocolate", "price": "$3.00"},
+      {"name": "Red Velvet", "price": "$3.50"},
+      {"name": "Carrot", "price": "$3.50"},
+      {"name": "Lemon", "price": "$3.50"},
+      {"name": "Marble", "price": "$4.00"},
+      {"name": "Strawberry", "price": "$4.00"},
+      {"name": "Coconut", "price": "$4.00"},
+      {"name": "Funfetti", "price": "$4.00"}
+    ],
+    "Premium": [
+      {"name": "Banana", "price": "$5.00"},
+      {"name": "Pineapple", "price": "$5.00"},
+      {"name": "Blueberry", "price": "$5.00"},
+      {"name": "Pistachio", "price": "$5.00"}
+    ],
+    "Special": [
+      {"name": "Coffee", "price": "$6.50"},
+      {"name": "Hazelnut", "price": "$6.50"},
+      {"name": "Raspberry", "price": "$7.00"},
+      {"name": "Tiramisu", "price": "$7.00"}
+    ]
+  }
+  
