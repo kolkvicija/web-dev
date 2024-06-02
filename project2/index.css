@@ -57,6 +57,61 @@ q {
   color: white;
 }
 
+#aboutus {
+  padding: 2%;
+  font-style: oblique;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 120, 140, 0.5) 80%);
+  justify-content: center;
+}
+
+#nbar:hover {
+  background-color: #facada;
+}
+
+body.scrolled #nbar {
+  background-color: #facada;
+  box-shadow: 0 0.3em 0.8em rgba(255, 120, 140, 0.1);
+}
+
+.secname {
+  font-size: 2.5em;
+  margin-bottom: 2%;
+  font-family: "Pacifico", "Verdana", cursive;
+  text-shadow: 0.03em 0.03em 0.05em rgb(255, 120, 140);
+}
+
+.optone:hover {
+  background-color: #ff788c;
+  font-family: "Pacifico", "Verdana" cursive;
+  box-shadow: 0 0.5em 1.2em rgba(128, 63, 73, 0.2);
+}
+
+.optone a {
+  color: #401f24 !important;
+  text-decoration: none !important;
+  text-shadow: 0.03em 0.03em 0.05em #ff788c !important;
+}
+
+a {
+  color: #401f24 !important;
+  text-decoration: none !important;
+  text-shadow: 0.03em 0.03em 0.05em #ff788c !important;
+}
+
+.optone a:hover {
+  color: white !important;
+  text-shadow: 0.03em 0.03em 0.05em #facada !important;
+}
+
+.auone p {
+  color: #401f24;
+}
+
+footer {
+  color: #65222c;
+  font-family: "Roboto";
+}
+
 #con-main {
   background-image: url("https://cdn.pixabay.com/photo/2020/02/15/17/36/macaroons-4851545_1280.jpg");
 }
@@ -190,4 +245,15 @@ h5 {
 
 #gallery {
   background-color: #fda1b3;
+}
+
+#faqsection {
+  background-color: #fda1b3 !important;
+}
+
+.accordion-header {
+  background-color: #fda1b3;
+  font-family: "Pacifico", "Verdana", cursive;
+  border-radius: 2em;
+  text-shadow: 0.03em 0.03em 0.05em #ff788c;
 }/*# sourceMappingURL=index.css.map */

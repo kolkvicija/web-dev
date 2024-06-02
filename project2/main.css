@@ -58,13 +58,7 @@ hr{
 #products{
   padding: 5% 0;
 }
-  
-#aboutus {
-  padding: 2%;
-  font-style: oblique;
-  background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255, 120, 140, 0.5) 80%);
-  justify-content: center;
-}
+
 
 #forms{
   display: flex;
@@ -178,22 +172,6 @@ header h1{
   transition: background-color 0.3s ease;
 }
 
-#nbar:hover {
-  background-color: #facada;
-}
-
-body.scrolled #nbar {
-  background-color: #facada; 
-  box-shadow: 0 0.3em 0.8em rgba(255, 120, 140, 0.1);
-}
-
-.secname{
-  font-size: 2.5em;
-  margin-bottom: 2%;
-    font-family: 'Pacifico','Verdana', cursive;
-    text-shadow: 0.03em 0.03em 0.05em rgba(255, 120, 140, 1);
-}
-
 .optone{
   display: inline-block;
   padding: 2% !important;
@@ -204,28 +182,7 @@ body.scrolled #nbar {
   
 }
 
-.optone:hover {
-  background-color: #ff788c;
-  font-family: 'Pacifico','Verdana' cursive;
-  box-shadow: 0 0.5em 1.2em rgba(128, 63, 73, 0.2);
-}
 
-.optone a {
-  color: #401f24!important;
-  text-decoration: none !important;
-  text-shadow: 0.03em 0.03em 0.05em  #ff788c  !important;
-}
-
-a {
-  color: #401f24!important;
-  text-decoration: none !important;
-  text-shadow: 0.03em 0.03em 0.05em  #ff788c  !important;
-}
-
-.optone a:hover{
-  color: white !important;
-  text-shadow: 0.03em 0.03em 0.05em #facada !important;
-}
 
 .optimg{
   width: 18em;
@@ -253,9 +210,7 @@ label{
   align-items: center;
 }
 
-.auone p  {
-  color: #401f24;
-}
+
 
 .auimg{
   height: 60%;
@@ -449,10 +404,7 @@ label{
   }
 }
 
-footer{
-  color:#65222c;
-  font-family: 'Roboto';
-}
+
 
 .ovr{
   justify-content: center;
@@ -534,67 +486,7 @@ footer{
   padding: 2% 0;
 }
 
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-}
 
-.thumbnail {
-  width: 150px;
-  height: 100px;
-  margin: 10px;
-  cursor: pointer;
-  object-fit: cover;
-}
-
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 60px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0,0.9);
-}
-
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-}
-
-#caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
-}
-
-/*.close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
-}*/
 
 .faqc{
   margin: 2em;
@@ -629,71 +521,24 @@ footer{
   width: 100% !important;
 }
 
-.accordion {
-  width: 800px;
-  margin: 90px auto;
-  color: black;
-  background-color: white;
-  padding: 45px 45px;
+
+.menu-container{
+  width: 100%;
 }
 
-.accordion .container {
-  position: relative;
-  margin: 10px 10px;
+.accordion-item {
+  margin-bottom: 3%;
 }
 
-/* Positions the labels relative to the .container. Adds padding to the top and bottom and increases font size. Also makes its cursor a pointer */
-
-.accordion .label {
-  position: relative;
-  padding: 10px 0;
-  font-size: 30px;
-  color: black;
-  cursor: pointer;
+.accordion-header {
+  padding: 3%;
 }
 
-
-/* Positions the plus sign 5px from the right. Centers it using the transform property. */
-
-.accordion .label::before {
-  content: '+';
-  color: black;
-  position: absolute;
-  top: 50%;
-  right: -5px;
-  font-size: 30px;
-  transform: translateY(-50%);
+.accordion-content {
+  padding: 2%;
+  display: none;
 }
 
-/* Hides the content (height: 0), decreases font size, justifies text and adds transition */
-
-.accordion .content {
-  position: relative;
-  background: white;
-  height: 0;
-  font-size: 20px;
-  text-align: justify;
-  width: 780px;
-  overflow: hidden;
-  transition: 0.5s;
-}
-
-/* Adds a horizontal line between the contents */
-
-.accordion hr {
-  width: 100;
-  margin-left: 0;
-  border: 1px solid grey;
-}
-/* Unhides the content part when active. Sets the height */
-
-.accordion .container.active .content {
-  height: 150px;
-}
-
-/* Changes from plus sign to negative sign once active */
-
-.accordion .container.active .label::before {
-  content: '-';
-  font-size: 30px;
+.accordion-content.active {
+  display: block;
 }
