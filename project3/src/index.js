@@ -7,6 +7,9 @@ import About from "./About";
 import Layout from "./Layout";
 import Gallery from "./Gallery";
 import Contact from "./Contact";
+import { ThemeProvider } from '@mui/material/styles';
+import theme from './theme';
+
 
 export default function App(){
   return (
@@ -27,5 +30,9 @@ export default function App(){
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+root.render(
+  <ThemeProvider theme={theme}>
+<App />
+  </ThemeProvider>
+);
 
