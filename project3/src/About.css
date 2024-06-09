@@ -1,0 +1,18 @@
+.Abt-paragraf{
+    width: 70%;
+  }
+
+  .text{
+    margin: 4%;
+  }
+
+.Pic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4%;
+}
+
+.About {
+  background-color: #f3a7b7;
+}
